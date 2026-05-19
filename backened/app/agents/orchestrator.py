@@ -213,7 +213,7 @@ async def run_orchestrator(
     # ----------------------------------------------------------------
     # STEP 3: Clarification check
     # ----------------------------------------------------------------
-    clarification = await run_clarification_agent(intent)
+    clarification = await run_clarification_agent(intent, user_message)
 
     if clarification.needs_clarification:
         # Still missing required fields — ask the user

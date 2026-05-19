@@ -31,7 +31,7 @@ _client = openai.AsyncOpenAI(
 )
 
 
-async def run_clarification_agent(intent: IntentResult) -> ClarificationResult:
+async def run_clarification_agent(intent: IntentResult, user_message: str = "") -> ClarificationResult:
     """
     Check if required booking fields are present.
     If not, use a direct JSON call to generate a natural clarifying question.
@@ -45,6 +45,8 @@ async def run_clarification_agent(intent: IntentResult) -> ClarificationResult:
         missing.append("service")
     if not intent.location:
         missing.append("location")
+    if not intent.time:
+        missing.append("time")
 
     # If nothing is missing, skip the LLM call entirely (saves money + quota!)
     if not missing:
@@ -56,14 +58,16 @@ async def run_clarification_agent(intent: IntentResult) -> ClarificationResult:
         print(f"[ClarificationAgent] Missing fields: {missing}")
 
     system_prompt = """You are a helpful booking assistant for a home services app in Karachi, Pakistan.
-Your job is to ask a short, single-sentence question to get the most important missing booking field.
+Your job is to ask a short, conversational question to get the missing booking information or answer their query.
 
-Priority: service type first, then location.
-Do NOT ask for time (it is optional).
+CRITICAL RULES:
+1. You MUST respond in the EXACT same language and style as the user's message. If they speak Roman Urdu (e.g. "Mujhe AC technician chahye"), you MUST reply in Roman Urdu (e.g. "Zaroor! Aapko kis area mein technician chahiye?"). If they speak English, reply in English.
+2. If the user asks what services we offer (e.g. "What service do you offer", "tum kya service dete ho"), you must politely list some of the available services (plumber, electrician, AC technician, cleaner, mechanic, carpenter, painter) and ask what they need.
+3. Priority: ask for service type first, then location, then time. You must know the time before booking.
 
 You must respond with ONLY a valid JSON object matching this schema:
 {
-  "question": "your friendly, conversational question here"
+  "question": "your friendly, personalized question here in the user's language"
 }"""
 
     known_parts = []
@@ -75,9 +79,10 @@ You must respond with ONLY a valid JSON object matching this schema:
         known_parts.append(f"time: {intent.time}")
 
     user_prompt = (
+        f"User Message: \"{user_message}\"\n"
         f"Known info: {', '.join(known_parts) if known_parts else 'None'}\n"
         f"Missing required fields: {', '.join(missing)}\n"
-        f"Generate clarification question."
+        f"Generate clarification question/response."
     )
 
     try:
