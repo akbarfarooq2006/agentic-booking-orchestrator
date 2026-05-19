@@ -1,0 +1,4777 @@
+[
+  {
+    "id": 1,
+    "name": "Khalid Plumber Repairs",
+    "service": "plumber",
+    "location": "DHA Phase 1",
+    "lat": 24.80405,
+    "lng": 67.05674,
+    "rating": 4,
+    "total_reviews": 161,
+    "available": true,
+    "eta_minutes": 65,
+    "price_level": 2,
+    "experience_years": 24,
+    "verified": false,
+    "languages": [
+      "Urdu",
+      "Punjabi",
+      "Pashto"
+    ],
+    "skills": [
+      "tap installation",
+      "pipe repair",
+      "leakage fixing",
+      "drainage cleaning",
+      "bathroom fitting"
+    ],
+    "working_hours": {
+      "start": "10:00",
+      "end": "19:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 511,
+    "response_time_minutes": 52
+  },
+  {
+    "id": 2,
+    "name": "DHA Electrician Fixers",
+    "service": "electrician",
+    "location": "DHA Phase 2",
+    "lat": 24.79473,
+    "lng": 67.05558,
+    "rating": 4.4,
+    "total_reviews": 199,
+    "available": false,
+    "eta_minutes": 46,
+    "price_level": 4,
+    "experience_years": 17,
+    "verified": false,
+    "languages": [
+      "Urdu",
+      "Sindhi",
+      "Pashto"
+    ],
+    "skills": [
+      "wiring",
+      "inverter setup",
+      "load balancing",
+      "DB installation",
+      "switchboard repair"
+    ],
+    "working_hours": {
+      "start": "11:00",
+      "end": "23:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 470,
+    "response_time_minutes": 5
+  },
+  {
+    "id": 3,
+    "name": "Shahid Abbasi AC Technician",
+    "service": "AC technician",
+    "location": "DHA Phase 4",
+    "lat": 24.78758,
+    "lng": 67.07291,
+    "rating": 2.6,
+    "total_reviews": 824,
+    "available": false,
+    "eta_minutes": 23,
+    "price_level": 4,
+    "experience_years": 19,
+    "verified": false,
+    "languages": [
+      "Urdu",
+      "Punjabi",
+      "Pashto"
+    ],
+    "skills": [
+      "PCB repair",
+      "gas recharge",
+      "duct cleaning",
+      "AC installation"
+    ],
+    "working_hours": {
+      "start": "07:00",
+      "end": "17:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 2953,
+    "response_time_minutes": 44
+  },
+  {
+    "id": 4,
+    "name": "DHA Cleaner Team",
+    "service": "cleaner",
+    "location": "DHA Phase 5",
+    "lat": 24.77439,
+    "lng": 67.09243,
+    "rating": 4.9,
+    "total_reviews": 221,
+    "available": true,
+    "eta_minutes": 83,
+    "price_level": 3,
+    "experience_years": 12,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "post-construction cleanup",
+      "kitchen cleaning",
+      "sofa cleaning"
+    ],
+    "working_hours": {
+      "start": "11:00",
+      "end": "23:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 481,
+    "response_time_minutes": 55
+  },
+  {
+    "id": 5,
+    "name": "Waseem Bhutto Mechanic",
+    "service": "mechanic",
+    "location": "DHA Phase 6",
+    "lat": 24.76847,
+    "lng": 67.09149,
+    "rating": 2.6,
+    "total_reviews": 517,
+    "available": false,
+    "eta_minutes": 8,
+    "price_level": 2,
+    "experience_years": 20,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "brake service",
+      "engine repair",
+      "oil change",
+      "tyre change"
+    ],
+    "working_hours": {
+      "start": "11:00",
+      "end": "23:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 600,
+    "response_time_minutes": 3
+  },
+  {
+    "id": 6,
+    "name": "DHA Carpenter Hub",
+    "service": "carpenter",
+    "location": "DHA Phase 7",
+    "lat": 24.74973,
+    "lng": 67.10864,
+    "rating": 4.7,
+    "total_reviews": 191,
+    "available": false,
+    "eta_minutes": 6,
+    "price_level": 3,
+    "experience_years": 6,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "cabinet making",
+      "wood polishing",
+      "wardrobe installation",
+      "kitchen cabinets"
+    ],
+    "working_hours": {
+      "start": "06:00",
+      "end": "16:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 681,
+    "response_time_minutes": 52
+  },
+  {
+    "id": 7,
+    "name": "Sohail Baloch Painter",
+    "service": "painter",
+    "location": "Clifton",
+    "lat": 24.81745,
+    "lng": 67.02281,
+    "rating": 4.5,
+    "total_reviews": 706,
+    "available": true,
+    "eta_minutes": 44,
+    "price_level": 3,
+    "experience_years": 24,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Sindhi",
+      "Pashto"
+    ],
+    "skills": [
+      "epoxy coating",
+      "wood painting",
+      "texture paint",
+      "waterproofing"
+    ],
+    "working_hours": {
+      "start": "10:00",
+      "end": "22:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 1930,
+    "response_time_minutes": 35
+  },
+  {
+    "id": 8,
+    "name": "Riaz Baloch Appliance Repair",
+    "service": "appliance repair",
+    "location": "PECHS",
+    "lat": 24.86919,
+    "lng": 67.06046,
+    "rating": 3.9,
+    "total_reviews": 453,
+    "available": true,
+    "eta_minutes": 69,
+    "price_level": 2,
+    "experience_years": 2,
+    "verified": false,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "microwave repair",
+      "dishwasher repair",
+      "refrigerator repair"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "20:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 481,
+    "response_time_minutes": 6
+  },
+  {
+    "id": 9,
+    "name": "Farhan Chaudhry Water Tank Cleaner",
+    "service": "water tank cleaner",
+    "location": "Gulshan-e-Iqbal",
+    "lat": 24.92135,
+    "lng": 67.09994,
+    "rating": 4.2,
+    "total_reviews": 739,
+    "available": true,
+    "eta_minutes": 86,
+    "price_level": 5,
+    "experience_years": 16,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Punjabi",
+      "Sindhi"
+    ],
+    "skills": [
+      "disinfection",
+      "sediment removal",
+      "water testing"
+    ],
+    "working_hours": {
+      "start": "10:00",
+      "end": "19:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 3832,
+    "response_time_minutes": 13
+  },
+  {
+    "id": 10,
+    "name": "Gulistan-e-Johar CCTV Technician Works",
+    "service": "CCTV technician",
+    "location": "Gulistan-e-Johar",
+    "lat": 24.92909,
+    "lng": 67.11721,
+    "rating": 2.9,
+    "total_reviews": 34,
+    "available": true,
+    "eta_minutes": 63,
+    "price_level": 5,
+    "experience_years": 6,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Punjabi"
+    ],
+    "skills": [
+      "DVR setup",
+      "cable management",
+      "motion detection config"
+    ],
+    "working_hours": {
+      "start": "10:00",
+      "end": "19:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 102,
+    "response_time_minutes": 30
+  },
+  {
+    "id": 11,
+    "name": "North Plumber Solutions",
+    "service": "plumber",
+    "location": "North Nazimabad",
+    "lat": 24.94377,
+    "lng": 67.04366,
+    "rating": 3.9,
+    "total_reviews": 403,
+    "available": true,
+    "eta_minutes": 11,
+    "price_level": 1,
+    "experience_years": 1,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "bathroom fitting",
+      "water pump repair",
+      "drainage cleaning"
+    ],
+    "working_hours": {
+      "start": "06:00",
+      "end": "16:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 1107,
+    "response_time_minutes": 60
+  },
+  {
+    "id": 12,
+    "name": "Aslam Patel Electrician",
+    "service": "electrician",
+    "location": "Nazimabad",
+    "lat": 24.91406,
+    "lng": 67.03571,
+    "rating": 4.1,
+    "total_reviews": 912,
+    "available": true,
+    "eta_minutes": 74,
+    "price_level": 2,
+    "experience_years": 7,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Pashto"
+    ],
+    "skills": [
+      "inverter setup",
+      "fan installation",
+      "load balancing"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "21:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 2512,
+    "response_time_minutes": 41
+  },
+  {
+    "id": 13,
+    "name": "Federal AC Technician Experts",
+    "service": "AC technician",
+    "location": "Federal B Area",
+    "lat": 24.93464,
+    "lng": 67.06834,
+    "rating": 3.9,
+    "total_reviews": 283,
+    "available": true,
+    "eta_minutes": 84,
+    "price_level": 5,
+    "experience_years": 18,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "gas recharge",
+      "PCB repair",
+      "AC installation",
+      "duct cleaning"
+    ],
+    "working_hours": {
+      "start": "06:00",
+      "end": "16:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 1188,
+    "response_time_minutes": 7
+  },
+  {
+    "id": 14,
+    "name": "Saddar Cleaner Services",
+    "service": "cleaner",
+    "location": "Saddar",
+    "lat": 24.86459,
+    "lng": 67.01451,
+    "rating": 4.6,
+    "total_reviews": 247,
+    "available": true,
+    "eta_minutes": 81,
+    "price_level": 5,
+    "experience_years": 13,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Punjabi"
+    ],
+    "skills": [
+      "carpet washing",
+      "deep cleaning",
+      "bathroom sanitization",
+      "post-construction cleanup"
+    ],
+    "working_hours": {
+      "start": "09:00",
+      "end": "20:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 1401,
+    "response_time_minutes": 45
+  },
+  {
+    "id": 15,
+    "name": "Raza Mechanic Services",
+    "service": "mechanic",
+    "location": "Bahadurabad",
+    "lat": 24.87602,
+    "lng": 67.05016,
+    "rating": 4.6,
+    "total_reviews": 117,
+    "available": true,
+    "eta_minutes": 83,
+    "price_level": 5,
+    "experience_years": 19,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Punjabi",
+      "Pashto"
+    ],
+    "skills": [
+      "battery replacement",
+      "engine repair",
+      "AC gas refill",
+      "oil change",
+      "brake service"
+    ],
+    "working_hours": {
+      "start": "11:00",
+      "end": "23:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 701,
+    "response_time_minutes": 27
+  },
+  {
+    "id": 16,
+    "name": "Tariq Carpenter Masters",
+    "service": "carpenter",
+    "location": "Tariq Road",
+    "lat": 24.87247,
+    "lng": 67.06086,
+    "rating": 4.6,
+    "total_reviews": 595,
+    "available": true,
+    "eta_minutes": 48,
+    "price_level": 1,
+    "experience_years": 23,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "English"
+    ],
+    "skills": [
+      "wardrobe installation",
+      "kitchen cabinets",
+      "door fitting"
+    ],
+    "working_hours": {
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 1836,
+    "response_time_minutes": 46
+  },
+  {
+    "id": 17,
+    "name": "Babar Hussain Painter",
+    "service": "painter",
+    "location": "Korangi",
+    "lat": 24.82847,
+    "lng": 67.1313,
+    "rating": 4.8,
+    "total_reviews": 734,
+    "available": false,
+    "eta_minutes": 41,
+    "price_level": 5,
+    "experience_years": 15,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "wall painting",
+      "texture paint",
+      "spray painting",
+      "waterproofing",
+      "epoxy coating"
+    ],
+    "working_hours": {
+      "start": "09:00",
+      "end": "20:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 1243,
+    "response_time_minutes": 2
+  },
+  {
+    "id": 18,
+    "name": "Usman Appliance Hub",
+    "service": "appliance repair",
+    "location": "Landhi",
+    "lat": 24.84657,
+    "lng": 67.17349,
+    "rating": 4.9,
+    "total_reviews": 969,
+    "available": true,
+    "eta_minutes": 19,
+    "price_level": 2,
+    "experience_years": 20,
+    "verified": false,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "oven repair",
+      "geyser repair",
+      "refrigerator repair",
+      "dishwasher repair"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "18:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 1077,
+    "response_time_minutes": 24
+  },
+  {
+    "id": 19,
+    "name": "Hassan Water Pros",
+    "service": "water tank cleaner",
+    "location": "Malir",
+    "lat": 24.89715,
+    "lng": 67.18399,
+    "rating": 3.9,
+    "total_reviews": 566,
+    "available": true,
+    "eta_minutes": 6,
+    "price_level": 5,
+    "experience_years": 13,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Punjabi"
+    ],
+    "skills": [
+      "water testing",
+      "disinfection",
+      "sediment removal",
+      "overflow fixing",
+      "tank sealing"
+    ],
+    "working_hours": {
+      "start": "06:00",
+      "end": "16:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 780,
+    "response_time_minutes": 9
+  },
+  {
+    "id": 20,
+    "name": "Waseem CCTV Works",
+    "service": "CCTV technician",
+    "location": "Shah Faisal Colony",
+    "lat": 24.88821,
+    "lng": 67.14009,
+    "rating": 4.6,
+    "total_reviews": 515,
+    "available": true,
+    "eta_minutes": 47,
+    "price_level": 3,
+    "experience_years": 22,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "IP camera setup",
+      "CCTV installation",
+      "DVR setup"
+    ],
+    "working_hours": {
+      "start": "11:00",
+      "end": "23:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 886,
+    "response_time_minutes": 19
+  },
+  {
+    "id": 21,
+    "name": "Irfan Plumber Repairs",
+    "service": "plumber",
+    "location": "Scheme 33",
+    "lat": 24.95706,
+    "lng": 67.1178,
+    "rating": 4.6,
+    "total_reviews": 28,
+    "available": true,
+    "eta_minutes": 16,
+    "price_level": 5,
+    "experience_years": 8,
+    "verified": false,
+    "languages": [
+      "Urdu",
+      "English"
+    ],
+    "skills": [
+      "pipe repair",
+      "bathroom fitting",
+      "drainage cleaning",
+      "leakage fixing"
+    ],
+    "working_hours": {
+      "start": "10:00",
+      "end": "22:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 80,
+    "response_time_minutes": 28
+  },
+  {
+    "id": 22,
+    "name": "Iqbal Baloch Electrician",
+    "service": "electrician",
+    "location": "Liaquatabad",
+    "lat": 24.90518,
+    "lng": 67.03164,
+    "rating": 3.8,
+    "total_reviews": 118,
+    "available": true,
+    "eta_minutes": 9,
+    "price_level": 5,
+    "experience_years": 5,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "load balancing",
+      "fan installation",
+      "wiring",
+      "switchboard repair"
+    ],
+    "working_hours": {
+      "start": "10:00",
+      "end": "22:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 246,
+    "response_time_minutes": 13
+  },
+  {
+    "id": 23,
+    "name": "Usman AC Solutions",
+    "service": "AC technician",
+    "location": "Buffer Zone",
+    "lat": 24.95705,
+    "lng": 67.07238,
+    "rating": 4.5,
+    "total_reviews": 40,
+    "available": true,
+    "eta_minutes": 80,
+    "price_level": 1,
+    "experience_years": 1,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Sindhi",
+      "Punjabi"
+    ],
+    "skills": [
+      "AC installation",
+      "PCB repair",
+      "AC repair"
+    ],
+    "working_hours": {
+      "start": "07:00",
+      "end": "17:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 232,
+    "response_time_minutes": 10
+  },
+  {
+    "id": 24,
+    "name": "Sohail Memon Cleaner",
+    "service": "cleaner",
+    "location": "Orangi Town",
+    "lat": 24.95731,
+    "lng": 67.00149,
+    "rating": 4.6,
+    "total_reviews": 209,
+    "available": true,
+    "eta_minutes": 70,
+    "price_level": 3,
+    "experience_years": 4,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Sindhi",
+      "Punjabi"
+    ],
+    "skills": [
+      "window cleaning",
+      "carpet washing",
+      "sofa cleaning",
+      "deep cleaning"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "18:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 566,
+    "response_time_minutes": 16
+  },
+  {
+    "id": 25,
+    "name": "Adnan Mechanic Center",
+    "service": "mechanic",
+    "location": "SITE Area",
+    "lat": 24.90494,
+    "lng": 67.00132,
+    "rating": 4.8,
+    "total_reviews": 459,
+    "available": true,
+    "eta_minutes": 85,
+    "price_level": 2,
+    "experience_years": 16,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "oil change",
+      "engine repair",
+      "brake service"
+    ],
+    "working_hours": {
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 611,
+    "response_time_minutes": 58
+  },
+  {
+    "id": 26,
+    "name": "Ali Carpenter Works",
+    "service": "carpenter",
+    "location": "Keamari",
+    "lat": 24.82297,
+    "lng": 66.9875,
+    "rating": 4.2,
+    "total_reviews": 134,
+    "available": true,
+    "eta_minutes": 60,
+    "price_level": 2,
+    "experience_years": 19,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Punjabi",
+      "English"
+    ],
+    "skills": [
+      "cabinet making",
+      "furniture repair",
+      "wardrobe installation",
+      "false ceiling",
+      "wood polishing"
+    ],
+    "working_hours": {
+      "start": "06:00",
+      "end": "16:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 252,
+    "response_time_minutes": 23
+  },
+  {
+    "id": 27,
+    "name": "Arif Painter Experts",
+    "service": "painter",
+    "location": "Surjani Town",
+    "lat": 25.01366,
+    "lng": 67.03118,
+    "rating": 4.1,
+    "total_reviews": 973,
+    "available": true,
+    "eta_minutes": 67,
+    "price_level": 4,
+    "experience_years": 2,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "spray painting",
+      "texture paint",
+      "wall painting",
+      "waterproofing",
+      "putty work"
+    ],
+    "working_hours": {
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 3607,
+    "response_time_minutes": 30
+  },
+  {
+    "id": 28,
+    "name": "Askari Appliance Repair Team",
+    "service": "appliance repair",
+    "location": "Askari 4",
+    "lat": 24.90151,
+    "lng": 67.07805,
+    "rating": 2.6,
+    "total_reviews": 214,
+    "available": true,
+    "eta_minutes": 75,
+    "price_level": 3,
+    "experience_years": 13,
+    "verified": false,
+    "languages": [
+      "Urdu",
+      "English",
+      "Punjabi"
+    ],
+    "skills": [
+      "geyser repair",
+      "dishwasher repair",
+      "microwave repair",
+      "washing machine repair"
+    ],
+    "working_hours": {
+      "start": "10:00",
+      "end": "22:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 309,
+    "response_time_minutes": 24
+  },
+  {
+    "id": 29,
+    "name": "Zubair Rajput Water Tank Cleaner",
+    "service": "water tank cleaner",
+    "location": "Askari 5",
+    "lat": 24.88102,
+    "lng": 67.08217,
+    "rating": 4.2,
+    "total_reviews": 89,
+    "available": true,
+    "eta_minutes": 77,
+    "price_level": 4,
+    "experience_years": 4,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "tank sealing",
+      "water testing",
+      "sediment removal",
+      "disinfection"
+    ],
+    "working_hours": {
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 153,
+    "response_time_minutes": 9
+  },
+  {
+    "id": 30,
+    "name": "Pervaiz Khan CCTV Technician",
+    "service": "CCTV technician",
+    "location": "Cantt",
+    "lat": 24.85525,
+    "lng": 67.0519,
+    "rating": 4.3,
+    "total_reviews": 714,
+    "available": false,
+    "eta_minutes": 72,
+    "price_level": 1,
+    "experience_years": 7,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "cable management",
+      "DVR setup",
+      "remote access setup"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "21:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 850,
+    "response_time_minutes": 48
+  },
+  {
+    "id": 31,
+    "name": "Arif Plumber Repairs",
+    "service": "plumber",
+    "location": "Garden East",
+    "lat": 24.87397,
+    "lng": 67.02299,
+    "rating": 4.7,
+    "total_reviews": 982,
+    "available": false,
+    "eta_minutes": 69,
+    "price_level": 1,
+    "experience_years": 21,
+    "verified": false,
+    "languages": [
+      "Urdu",
+      "English"
+    ],
+    "skills": [
+      "tap installation",
+      "water pump repair",
+      "drainage cleaning",
+      "bathroom fitting",
+      "pipe repair"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "20:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 1348,
+    "response_time_minutes": 40
+  },
+  {
+    "id": 32,
+    "name": "Farhan Abbasi Electrician",
+    "service": "electrician",
+    "location": "Garden West",
+    "lat": 24.85631,
+    "lng": 67.02249,
+    "rating": 3.8,
+    "total_reviews": 396,
+    "available": false,
+    "eta_minutes": 14,
+    "price_level": 1,
+    "experience_years": 24,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "DB installation",
+      "load balancing",
+      "CCTV wiring",
+      "wiring",
+      "switchboard repair"
+    ],
+    "working_hours": {
+      "start": "11:00",
+      "end": "23:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 1249,
+    "response_time_minutes": 1
+  },
+  {
+    "id": 33,
+    "name": "Bilal AC Pros",
+    "service": "AC technician",
+    "location": "Jamshed Road",
+    "lat": 24.86944,
+    "lng": 67.04688,
+    "rating": 4,
+    "total_reviews": 659,
+    "available": true,
+    "eta_minutes": 7,
+    "price_level": 5,
+    "experience_years": 2,
+    "verified": false,
+    "languages": [
+      "Urdu",
+      "Punjabi",
+      "Sindhi"
+    ],
+    "skills": [
+      "duct cleaning",
+      "AC installation",
+      "PCB repair"
+    ],
+    "working_hours": {
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 673,
+    "response_time_minutes": 50
+  },
+  {
+    "id": 34,
+    "name": "Asad Chaudhry Cleaner",
+    "service": "cleaner",
+    "location": "Burns Road",
+    "lat": 24.87191,
+    "lng": 67.02676,
+    "rating": 3.8,
+    "total_reviews": 56,
+    "available": true,
+    "eta_minutes": 62,
+    "price_level": 5,
+    "experience_years": 2,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Pashto",
+      "Sindhi"
+    ],
+    "skills": [
+      "window cleaning",
+      "sofa cleaning",
+      "deep cleaning"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "21:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 56,
+    "response_time_minutes": 50
+  },
+  {
+    "id": 35,
+    "name": "Salman Mechanic Services",
+    "service": "mechanic",
+    "location": "Defence View",
+    "lat": 24.79243,
+    "lng": 67.06561,
+    "rating": 4.6,
+    "total_reviews": 10,
+    "available": true,
+    "eta_minutes": 34,
+    "price_level": 2,
+    "experience_years": 1,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "tyre change",
+      "engine repair",
+      "AC gas refill",
+      "oil change",
+      "brake service"
+    ],
+    "working_hours": {
+      "start": "10:00",
+      "end": "19:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 36,
+    "response_time_minutes": 15
+  },
+  {
+    "id": 36,
+    "name": "Naeem Carpenter Pros",
+    "service": "carpenter",
+    "location": "Boat Basin",
+    "lat": 24.81498,
+    "lng": 67.02765,
+    "rating": 3.9,
+    "total_reviews": 559,
+    "available": true,
+    "eta_minutes": 85,
+    "price_level": 3,
+    "experience_years": 4,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "cabinet making",
+      "furniture repair",
+      "wood polishing",
+      "door fitting",
+      "wardrobe installation"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "20:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 850,
+    "response_time_minutes": 60
+  },
+  {
+    "id": 37,
+    "name": "Tariq Khan Painter",
+    "service": "painter",
+    "location": "Nursery",
+    "lat": 24.86935,
+    "lng": 67.04107,
+    "rating": 4.4,
+    "total_reviews": 60,
+    "available": true,
+    "eta_minutes": 89,
+    "price_level": 3,
+    "experience_years": 20,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Punjabi"
+    ],
+    "skills": [
+      "spray painting",
+      "waterproofing",
+      "wall painting",
+      "wood painting",
+      "texture paint"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "20:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 115,
+    "response_time_minutes": 18
+  },
+  {
+    "id": 38,
+    "name": "Arif Appliance Fixers",
+    "service": "appliance repair",
+    "location": "Gulberg",
+    "lat": 24.93416,
+    "lng": 67.08049,
+    "rating": 2.6,
+    "total_reviews": 178,
+    "available": false,
+    "eta_minutes": 80,
+    "price_level": 5,
+    "experience_years": 7,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Punjabi"
+    ],
+    "skills": [
+      "refrigerator repair",
+      "blender repair",
+      "dishwasher repair",
+      "oven repair"
+    ],
+    "working_hours": {
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 312,
+    "response_time_minutes": 5
+  },
+  {
+    "id": 39,
+    "name": "Riaz Water Fixers",
+    "service": "water tank cleaner",
+    "location": "Model Colony",
+    "lat": 24.86623,
+    "lng": 67.15667,
+    "rating": 4.9,
+    "total_reviews": 81,
+    "available": false,
+    "eta_minutes": 83,
+    "price_level": 2,
+    "experience_years": 4,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Pashto"
+    ],
+    "skills": [
+      "sediment removal",
+      "tank cleaning",
+      "tank sealing"
+    ],
+    "working_hours": {
+      "start": "06:00",
+      "end": "16:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 232,
+    "response_time_minutes": 18
+  },
+  {
+    "id": 40,
+    "name": "Imran Baig CCTV Technician",
+    "service": "CCTV technician",
+    "location": "Safoora",
+    "lat": 24.94883,
+    "lng": 67.1004,
+    "rating": 2.7,
+    "total_reviews": 126,
+    "available": false,
+    "eta_minutes": 9,
+    "price_level": 1,
+    "experience_years": 8,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Punjabi",
+      "Sindhi"
+    ],
+    "skills": [
+      "CCTV installation",
+      "DVR setup",
+      "camera calibration",
+      "motion detection config"
+    ],
+    "working_hours": {
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 137,
+    "response_time_minutes": 20
+  },
+  {
+    "id": 41,
+    "name": "University Plumber Repairs",
+    "service": "plumber",
+    "location": "University Road",
+    "lat": 24.925,
+    "lng": 67.11904,
+    "rating": 4.1,
+    "total_reviews": 648,
+    "available": false,
+    "eta_minutes": 87,
+    "price_level": 4,
+    "experience_years": 7,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "pipe repair",
+      "leakage fixing",
+      "tap installation",
+      "drainage cleaning",
+      "water pump repair"
+    ],
+    "working_hours": {
+      "start": "10:00",
+      "end": "22:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 1312,
+    "response_time_minutes": 47
+  },
+  {
+    "id": 42,
+    "name": "Hamid Patel Electrician",
+    "service": "electrician",
+    "location": "DHA Phase 1",
+    "lat": 24.80447,
+    "lng": 67.05808,
+    "rating": 4,
+    "total_reviews": 763,
+    "available": false,
+    "eta_minutes": 21,
+    "price_level": 3,
+    "experience_years": 3,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "English"
+    ],
+    "skills": [
+      "CCTV wiring",
+      "load balancing",
+      "inverter setup",
+      "fan installation",
+      "switchboard repair"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "20:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 2270,
+    "response_time_minutes": 45
+  },
+  {
+    "id": 43,
+    "name": "Khalid Akhtar AC Technician",
+    "service": "AC technician",
+    "location": "DHA Phase 2",
+    "lat": 24.80777,
+    "lng": 67.06154,
+    "rating": 4.1,
+    "total_reviews": 477,
+    "available": true,
+    "eta_minutes": 67,
+    "price_level": 5,
+    "experience_years": 4,
+    "verified": false,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "AC installation",
+      "duct cleaning",
+      "PCB repair"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "21:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 2167,
+    "response_time_minutes": 29
+  },
+  {
+    "id": 44,
+    "name": "Hamid Cleaner Masters",
+    "service": "cleaner",
+    "location": "DHA Phase 4",
+    "lat": 24.78164,
+    "lng": 67.07246,
+    "rating": 3.9,
+    "total_reviews": 528,
+    "available": false,
+    "eta_minutes": 51,
+    "price_level": 5,
+    "experience_years": 13,
+    "verified": false,
+    "languages": [
+      "Urdu",
+      "Pashto"
+    ],
+    "skills": [
+      "sofa cleaning",
+      "post-construction cleanup",
+      "window cleaning"
+    ],
+    "working_hours": {
+      "start": "10:00",
+      "end": "22:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 940,
+    "response_time_minutes": 9
+  },
+  {
+    "id": 45,
+    "name": "Junaid Mechanic Solutions",
+    "service": "mechanic",
+    "location": "DHA Phase 5",
+    "lat": 24.76836,
+    "lng": 67.08896,
+    "rating": 3,
+    "total_reviews": 560,
+    "available": false,
+    "eta_minutes": 9,
+    "price_level": 4,
+    "experience_years": 6,
+    "verified": false,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "engine repair",
+      "tyre change",
+      "AC gas refill",
+      "car detailing"
+    ],
+    "working_hours": {
+      "start": "07:00",
+      "end": "17:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 3113,
+    "response_time_minutes": 15
+  },
+  {
+    "id": 46,
+    "name": "Nadeem Patel Carpenter",
+    "service": "carpenter",
+    "location": "DHA Phase 6",
+    "lat": 24.76925,
+    "lng": 67.09721,
+    "rating": 3.3,
+    "total_reviews": 493,
+    "available": true,
+    "eta_minutes": 87,
+    "price_level": 5,
+    "experience_years": 10,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "English",
+      "Sindhi"
+    ],
+    "skills": [
+      "door fitting",
+      "cabinet making",
+      "kitchen cabinets",
+      "furniture repair",
+      "wood polishing"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "21:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 978,
+    "response_time_minutes": 8
+  },
+  {
+    "id": 47,
+    "name": "Sohail Mirza Painter",
+    "service": "painter",
+    "location": "DHA Phase 7",
+    "lat": 24.74752,
+    "lng": 67.10243,
+    "rating": 4.4,
+    "total_reviews": 863,
+    "available": true,
+    "eta_minutes": 70,
+    "price_level": 1,
+    "experience_years": 5,
+    "verified": false,
+    "languages": [
+      "Urdu",
+      "English",
+      "Pashto"
+    ],
+    "skills": [
+      "wall painting",
+      "wood painting",
+      "texture paint"
+    ],
+    "working_hours": {
+      "start": "07:00",
+      "end": "17:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 1575,
+    "response_time_minutes": 34
+  },
+  {
+    "id": 48,
+    "name": "Clifton Appliance Repair Services",
+    "service": "appliance repair",
+    "location": "Clifton",
+    "lat": 24.80386,
+    "lng": 67.02187,
+    "rating": 4.2,
+    "total_reviews": 653,
+    "available": false,
+    "eta_minutes": 59,
+    "price_level": 2,
+    "experience_years": 15,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "English"
+    ],
+    "skills": [
+      "washing machine repair",
+      "refrigerator repair",
+      "microwave repair",
+      "geyser repair",
+      "oven repair"
+    ],
+    "working_hours": {
+      "start": "06:00",
+      "end": "16:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 2909,
+    "response_time_minutes": 25
+  },
+  {
+    "id": 49,
+    "name": "PECHS Water Tank Cleaner Services",
+    "service": "water tank cleaner",
+    "location": "PECHS",
+    "lat": 24.8652,
+    "lng": 67.04876,
+    "rating": 2.7,
+    "total_reviews": 237,
+    "available": true,
+    "eta_minutes": 7,
+    "price_level": 5,
+    "experience_years": 5,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "English",
+      "Punjabi"
+    ],
+    "skills": [
+      "sediment removal",
+      "water testing",
+      "overflow fixing"
+    ],
+    "working_hours": {
+      "start": "07:00",
+      "end": "17:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 707,
+    "response_time_minutes": 1
+  },
+  {
+    "id": 50,
+    "name": "Aslam Chaudhry CCTV Technician",
+    "service": "CCTV technician",
+    "location": "Gulshan-e-Iqbal",
+    "lat": 24.9214,
+    "lng": 67.10317,
+    "rating": 4.4,
+    "total_reviews": 258,
+    "available": false,
+    "eta_minutes": 85,
+    "price_level": 1,
+    "experience_years": 9,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "motion detection config",
+      "camera calibration",
+      "cable management"
+    ],
+    "working_hours": {
+      "start": "11:00",
+      "end": "23:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 1384,
+    "response_time_minutes": 4
+  },
+  {
+    "id": 51,
+    "name": "Tariq Patel Plumber",
+    "service": "plumber",
+    "location": "Gulistan-e-Johar",
+    "lat": 24.92491,
+    "lng": 67.12833,
+    "rating": 4.6,
+    "total_reviews": 584,
+    "available": false,
+    "eta_minutes": 34,
+    "price_level": 1,
+    "experience_years": 19,
+    "verified": false,
+    "languages": [
+      "Urdu",
+      "Punjabi"
+    ],
+    "skills": [
+      "bathroom fitting",
+      "tap installation",
+      "drainage cleaning",
+      "water pump repair",
+      "leakage fixing"
+    ],
+    "working_hours": {
+      "start": "07:00",
+      "end": "17:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 892,
+    "response_time_minutes": 32
+  },
+  {
+    "id": 52,
+    "name": "Iqbal Electrician Pros",
+    "service": "electrician",
+    "location": "North Nazimabad",
+    "lat": 24.93085,
+    "lng": 67.04721,
+    "rating": 3.4,
+    "total_reviews": 624,
+    "available": true,
+    "eta_minutes": 83,
+    "price_level": 4,
+    "experience_years": 24,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Sindhi"
+    ],
+    "skills": [
+      "fan installation",
+      "DB installation",
+      "CCTV wiring",
+      "inverter setup",
+      "load balancing"
+    ],
+    "working_hours": {
+      "start": "10:00",
+      "end": "19:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 638,
+    "response_time_minutes": 54
+  },
+  {
+    "id": 53,
+    "name": "Pervaiz Rajput AC Technician",
+    "service": "AC technician",
+    "location": "Nazimabad",
+    "lat": 24.91506,
+    "lng": 67.03604,
+    "rating": 3.2,
+    "total_reviews": 141,
+    "available": false,
+    "eta_minutes": 19,
+    "price_level": 1,
+    "experience_years": 25,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Sindhi"
+    ],
+    "skills": [
+      "PCB repair",
+      "thermostat repair",
+      "AC repair"
+    ],
+    "working_hours": {
+      "start": "06:00",
+      "end": "16:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 406,
+    "response_time_minutes": 36
+  },
+  {
+    "id": 54,
+    "name": "Junaid Baig Cleaner",
+    "service": "cleaner",
+    "location": "Federal B Area",
+    "lat": 24.9425,
+    "lng": 67.0758,
+    "rating": 3.8,
+    "total_reviews": 406,
+    "available": false,
+    "eta_minutes": 32,
+    "price_level": 4,
+    "experience_years": 15,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "kitchen cleaning",
+      "carpet washing",
+      "sofa cleaning"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "21:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 1926,
+    "response_time_minutes": 8
+  },
+  {
+    "id": 55,
+    "name": "Sajid Ahmed Mechanic",
+    "service": "mechanic",
+    "location": "Saddar",
+    "lat": 24.85978,
+    "lng": 67.00816,
+    "rating": 3.9,
+    "total_reviews": 956,
+    "available": true,
+    "eta_minutes": 22,
+    "price_level": 5,
+    "experience_years": 19,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "AC gas refill",
+      "engine repair",
+      "tyre change",
+      "oil change",
+      "brake service"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "21:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 2313,
+    "response_time_minutes": 9
+  },
+  {
+    "id": 56,
+    "name": "Sohail Carpenter Experts",
+    "service": "carpenter",
+    "location": "Bahadurabad",
+    "lat": 24.87543,
+    "lng": 67.05818,
+    "rating": 4.9,
+    "total_reviews": 968,
+    "available": true,
+    "eta_minutes": 8,
+    "price_level": 4,
+    "experience_years": 3,
+    "verified": false,
+    "languages": [
+      "Urdu",
+      "Sindhi",
+      "Pashto"
+    ],
+    "skills": [
+      "wood polishing",
+      "cabinet making",
+      "kitchen cabinets",
+      "wardrobe installation",
+      "false ceiling"
+    ],
+    "working_hours": {
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 2556,
+    "response_time_minutes": 38
+  },
+  {
+    "id": 57,
+    "name": "Asad Painter Masters",
+    "service": "painter",
+    "location": "Tariq Road",
+    "lat": 24.87775,
+    "lng": 67.06438,
+    "rating": 3.7,
+    "total_reviews": 128,
+    "available": true,
+    "eta_minutes": 68,
+    "price_level": 3,
+    "experience_years": 6,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "English"
+    ],
+    "skills": [
+      "waterproofing",
+      "epoxy coating",
+      "wood painting",
+      "spray painting"
+    ],
+    "working_hours": {
+      "start": "10:00",
+      "end": "22:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 702,
+    "response_time_minutes": 21
+  },
+  {
+    "id": 58,
+    "name": "Korangi Appliance Repair Pros",
+    "service": "appliance repair",
+    "location": "Korangi",
+    "lat": 24.82508,
+    "lng": 67.13708,
+    "rating": 3.7,
+    "total_reviews": 839,
+    "available": true,
+    "eta_minutes": 41,
+    "price_level": 2,
+    "experience_years": 9,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "English"
+    ],
+    "skills": [
+      "washing machine repair",
+      "refrigerator repair",
+      "oven repair",
+      "microwave repair",
+      "dishwasher repair"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "20:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 2479,
+    "response_time_minutes": 45
+  },
+  {
+    "id": 59,
+    "name": "Usman Sheikh Water Tank Cleaner",
+    "service": "water tank cleaner",
+    "location": "Landhi",
+    "lat": 24.84161,
+    "lng": 67.169,
+    "rating": 4.1,
+    "total_reviews": 301,
+    "available": false,
+    "eta_minutes": 73,
+    "price_level": 3,
+    "experience_years": 7,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "English",
+      "Punjabi"
+    ],
+    "skills": [
+      "disinfection",
+      "tank cleaning",
+      "water testing",
+      "algae removal"
+    ],
+    "working_hours": {
+      "start": "07:00",
+      "end": "17:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 775,
+    "response_time_minutes": 18
+  },
+  {
+    "id": 60,
+    "name": "Bilal CCTV Care",
+    "service": "CCTV technician",
+    "location": "Malir",
+    "lat": 24.89116,
+    "lng": 67.19169,
+    "rating": 4.1,
+    "total_reviews": 907,
+    "available": false,
+    "eta_minutes": 73,
+    "price_level": 3,
+    "experience_years": 13,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Sindhi"
+    ],
+    "skills": [
+      "camera calibration",
+      "CCTV installation",
+      "DVR setup"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "18:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 942,
+    "response_time_minutes": 17
+  },
+  {
+    "id": 61,
+    "name": "Kamran Plumber Team",
+    "service": "plumber",
+    "location": "Shah Faisal Colony",
+    "lat": 24.88457,
+    "lng": 67.14285,
+    "rating": 3.4,
+    "total_reviews": 454,
+    "available": false,
+    "eta_minutes": 28,
+    "price_level": 1,
+    "experience_years": 21,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "English"
+    ],
+    "skills": [
+      "tap installation",
+      "pipe repair",
+      "drainage cleaning",
+      "leakage fixing",
+      "bathroom fitting"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "21:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 997,
+    "response_time_minutes": 11
+  },
+  {
+    "id": 62,
+    "name": "Babar Memon Electrician",
+    "service": "electrician",
+    "location": "Scheme 33",
+    "lat": 24.95454,
+    "lng": 67.11657,
+    "rating": 2.5,
+    "total_reviews": 728,
+    "available": true,
+    "eta_minutes": 11,
+    "price_level": 3,
+    "experience_years": 7,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "CCTV wiring",
+      "wiring",
+      "load balancing"
+    ],
+    "working_hours": {
+      "start": "07:00",
+      "end": "17:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 1866,
+    "response_time_minutes": 39
+  },
+  {
+    "id": 63,
+    "name": "Zahid Memon AC Technician",
+    "service": "AC technician",
+    "location": "Liaquatabad",
+    "lat": 24.90396,
+    "lng": 67.03465,
+    "rating": 4.9,
+    "total_reviews": 232,
+    "available": true,
+    "eta_minutes": 36,
+    "price_level": 5,
+    "experience_years": 17,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Punjabi",
+      "Pashto"
+    ],
+    "skills": [
+      "AC repair",
+      "duct cleaning",
+      "AC installation",
+      "gas recharge"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "20:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 1153,
+    "response_time_minutes": 47
+  },
+  {
+    "id": 64,
+    "name": "Buffer Cleaner Team",
+    "service": "cleaner",
+    "location": "Buffer Zone",
+    "lat": 24.9559,
+    "lng": 67.07112,
+    "rating": 4.4,
+    "total_reviews": 944,
+    "available": true,
+    "eta_minutes": 63,
+    "price_level": 3,
+    "experience_years": 4,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "kitchen cleaning",
+      "deep cleaning",
+      "carpet washing"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "20:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 2732,
+    "response_time_minutes": 60
+  },
+  {
+    "id": 65,
+    "name": "Orangi Mechanic Fixers",
+    "service": "mechanic",
+    "location": "Orangi Town",
+    "lat": 24.96816,
+    "lng": 67.00092,
+    "rating": 4.6,
+    "total_reviews": 101,
+    "available": false,
+    "eta_minutes": 41,
+    "price_level": 4,
+    "experience_years": 6,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Punjabi"
+    ],
+    "skills": [
+      "engine repair",
+      "brake service",
+      "car detailing"
+    ],
+    "working_hours": {
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 228,
+    "response_time_minutes": 2
+  },
+  {
+    "id": 66,
+    "name": "Hamid Carpenter Solutions",
+    "service": "carpenter",
+    "location": "SITE Area",
+    "lat": 24.90726,
+    "lng": 67.00165,
+    "rating": 2.9,
+    "total_reviews": 958,
+    "available": true,
+    "eta_minutes": 34,
+    "price_level": 1,
+    "experience_years": 17,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "English"
+    ],
+    "skills": [
+      "kitchen cabinets",
+      "furniture repair",
+      "door fitting",
+      "cabinet making",
+      "wood polishing"
+    ],
+    "working_hours": {
+      "start": "06:00",
+      "end": "16:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 2384,
+    "response_time_minutes": 5
+  },
+  {
+    "id": 67,
+    "name": "Bilal Patel Painter",
+    "service": "painter",
+    "location": "Keamari",
+    "lat": 24.81635,
+    "lng": 66.98372,
+    "rating": 3.7,
+    "total_reviews": 233,
+    "available": true,
+    "eta_minutes": 81,
+    "price_level": 2,
+    "experience_years": 20,
+    "verified": false,
+    "languages": [
+      "Urdu",
+      "English"
+    ],
+    "skills": [
+      "spray painting",
+      "wall painting",
+      "waterproofing"
+    ],
+    "working_hours": {
+      "start": "06:00",
+      "end": "16:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 411,
+    "response_time_minutes": 27
+  },
+  {
+    "id": 68,
+    "name": "Shahid Malik Appliance Repair",
+    "service": "appliance repair",
+    "location": "Surjani Town",
+    "lat": 25.01296,
+    "lng": 67.0396,
+    "rating": 4.8,
+    "total_reviews": 297,
+    "available": true,
+    "eta_minutes": 22,
+    "price_level": 2,
+    "experience_years": 1,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "English"
+    ],
+    "skills": [
+      "refrigerator repair",
+      "oven repair",
+      "washing machine repair",
+      "microwave repair"
+    ],
+    "working_hours": {
+      "start": "06:00",
+      "end": "16:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 519,
+    "response_time_minutes": 24
+  },
+  {
+    "id": 69,
+    "name": "Kamran Malik Water Tank Cleaner",
+    "service": "water tank cleaner",
+    "location": "Askari 4",
+    "lat": 24.88908,
+    "lng": 67.07338,
+    "rating": 4.3,
+    "total_reviews": 264,
+    "available": true,
+    "eta_minutes": 80,
+    "price_level": 3,
+    "experience_years": 6,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Punjabi"
+    ],
+    "skills": [
+      "overflow fixing",
+      "tank sealing",
+      "algae removal",
+      "water testing",
+      "sediment removal"
+    ],
+    "working_hours": {
+      "start": "10:00",
+      "end": "22:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 364,
+    "response_time_minutes": 54
+  },
+  {
+    "id": 70,
+    "name": "Askari CCTV Technician Services",
+    "service": "CCTV technician",
+    "location": "Askari 5",
+    "lat": 24.88963,
+    "lng": 67.09075,
+    "rating": 4.4,
+    "total_reviews": 415,
+    "available": false,
+    "eta_minutes": 31,
+    "price_level": 2,
+    "experience_years": 21,
+    "verified": false,
+    "languages": [
+      "Urdu",
+      "Punjabi",
+      "Pashto"
+    ],
+    "skills": [
+      "DVR setup",
+      "cable management",
+      "CCTV installation",
+      "camera calibration"
+    ],
+    "working_hours": {
+      "start": "10:00",
+      "end": "22:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 1475,
+    "response_time_minutes": 41
+  },
+  {
+    "id": 71,
+    "name": "Adnan Plumber Experts",
+    "service": "plumber",
+    "location": "Cantt",
+    "lat": 24.85774,
+    "lng": 67.0446,
+    "rating": 3.7,
+    "total_reviews": 694,
+    "available": true,
+    "eta_minutes": 47,
+    "price_level": 5,
+    "experience_years": 21,
+    "verified": false,
+    "languages": [
+      "Urdu",
+      "English"
+    ],
+    "skills": [
+      "water pump repair",
+      "bathroom fitting",
+      "pipe repair",
+      "tap installation",
+      "leakage fixing"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "21:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 1327,
+    "response_time_minutes": 18
+  },
+  {
+    "id": 72,
+    "name": "Raza Electrician Center",
+    "service": "electrician",
+    "location": "Garden East",
+    "lat": 24.86349,
+    "lng": 67.02215,
+    "rating": 4.1,
+    "total_reviews": 581,
+    "available": true,
+    "eta_minutes": 5,
+    "price_level": 5,
+    "experience_years": 14,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Sindhi"
+    ],
+    "skills": [
+      "wiring",
+      "CCTV wiring",
+      "fan installation"
+    ],
+    "working_hours": {
+      "start": "07:00",
+      "end": "17:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 1846,
+    "response_time_minutes": 59
+  },
+  {
+    "id": 73,
+    "name": "Zubair Ahmed AC Technician",
+    "service": "AC technician",
+    "location": "Garden West",
+    "lat": 24.85683,
+    "lng": 67.0265,
+    "rating": 4.6,
+    "total_reviews": 862,
+    "available": false,
+    "eta_minutes": 63,
+    "price_level": 3,
+    "experience_years": 21,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "duct cleaning",
+      "gas recharge",
+      "thermostat repair"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "20:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 2156,
+    "response_time_minutes": 39
+  },
+  {
+    "id": 74,
+    "name": "Khalid Sheikh Cleaner",
+    "service": "cleaner",
+    "location": "Jamshed Road",
+    "lat": 24.88107,
+    "lng": 67.05498,
+    "rating": 4.7,
+    "total_reviews": 307,
+    "available": true,
+    "eta_minutes": 72,
+    "price_level": 4,
+    "experience_years": 10,
+    "verified": false,
+    "languages": [
+      "Urdu",
+      "Pashto",
+      "Punjabi"
+    ],
+    "skills": [
+      "kitchen cleaning",
+      "deep cleaning",
+      "bathroom sanitization"
+    ],
+    "working_hours": {
+      "start": "09:00",
+      "end": "20:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 370,
+    "response_time_minutes": 5
+  },
+  {
+    "id": 75,
+    "name": "Naeem Chaudhry Mechanic",
+    "service": "mechanic",
+    "location": "Burns Road",
+    "lat": 24.86654,
+    "lng": 67.02591,
+    "rating": 4.5,
+    "total_reviews": 727,
+    "available": false,
+    "eta_minutes": 84,
+    "price_level": 4,
+    "experience_years": 9,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Pashto"
+    ],
+    "skills": [
+      "oil change",
+      "engine repair",
+      "tyre change"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "18:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 3624,
+    "response_time_minutes": 13
+  },
+  {
+    "id": 76,
+    "name": "Imran Carpenter Team",
+    "service": "carpenter",
+    "location": "Defence View",
+    "lat": 24.80225,
+    "lng": 67.06574,
+    "rating": 2.8,
+    "total_reviews": 153,
+    "available": false,
+    "eta_minutes": 23,
+    "price_level": 2,
+    "experience_years": 13,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Punjabi",
+      "Pashto"
+    ],
+    "skills": [
+      "wardrobe installation",
+      "furniture repair",
+      "cabinet making",
+      "door fitting",
+      "false ceiling"
+    ],
+    "working_hours": {
+      "start": "10:00",
+      "end": "22:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 281,
+    "response_time_minutes": 43
+  },
+  {
+    "id": 77,
+    "name": "Irfan Ansari Painter",
+    "service": "painter",
+    "location": "Boat Basin",
+    "lat": 24.81026,
+    "lng": 67.03334,
+    "rating": 4.9,
+    "total_reviews": 603,
+    "available": true,
+    "eta_minutes": 85,
+    "price_level": 1,
+    "experience_years": 8,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "waterproofing",
+      "putty work",
+      "texture paint",
+      "spray painting"
+    ],
+    "working_hours": {
+      "start": "09:00",
+      "end": "20:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 2606,
+    "response_time_minutes": 37
+  },
+  {
+    "id": 78,
+    "name": "Nursery Appliance Repair Masters",
+    "service": "appliance repair",
+    "location": "Nursery",
+    "lat": 24.87306,
+    "lng": 67.04613,
+    "rating": 2.5,
+    "total_reviews": 35,
+    "available": false,
+    "eta_minutes": 38,
+    "price_level": 5,
+    "experience_years": 10,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "English",
+      "Punjabi"
+    ],
+    "skills": [
+      "refrigerator repair",
+      "oven repair",
+      "geyser repair",
+      "washing machine repair"
+    ],
+    "working_hours": {
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 113,
+    "response_time_minutes": 36
+  },
+  {
+    "id": 79,
+    "name": "Iqbal Water Works",
+    "service": "water tank cleaner",
+    "location": "Gulberg",
+    "lat": 24.93355,
+    "lng": 67.0794,
+    "rating": 4.8,
+    "total_reviews": 618,
+    "available": false,
+    "eta_minutes": 81,
+    "price_level": 3,
+    "experience_years": 6,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "disinfection",
+      "algae removal",
+      "water testing",
+      "tank cleaning",
+      "sediment removal"
+    ],
+    "working_hours": {
+      "start": "10:00",
+      "end": "22:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 1229,
+    "response_time_minutes": 42
+  },
+  {
+    "id": 80,
+    "name": "Adnan CCTV Masters",
+    "service": "CCTV technician",
+    "location": "Model Colony",
+    "lat": 24.8753,
+    "lng": 67.14572,
+    "rating": 3.9,
+    "total_reviews": 293,
+    "available": false,
+    "eta_minutes": 64,
+    "price_level": 3,
+    "experience_years": 22,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "remote access setup",
+      "camera calibration",
+      "motion detection config",
+      "DVR setup"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "20:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 839,
+    "response_time_minutes": 28
+  },
+  {
+    "id": 81,
+    "name": "Safoora Plumber Services",
+    "service": "plumber",
+    "location": "Safoora",
+    "lat": 24.94662,
+    "lng": 67.10329,
+    "rating": 3.1,
+    "total_reviews": 488,
+    "available": false,
+    "eta_minutes": 83,
+    "price_level": 1,
+    "experience_years": 2,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "water pump repair",
+      "tap installation",
+      "leakage fixing",
+      "pipe repair"
+    ],
+    "working_hours": {
+      "start": "11:00",
+      "end": "23:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 1096,
+    "response_time_minutes": 16
+  },
+  {
+    "id": 82,
+    "name": "University Electrician Services",
+    "service": "electrician",
+    "location": "University Road",
+    "lat": 24.93446,
+    "lng": 67.11799,
+    "rating": 4.6,
+    "total_reviews": 567,
+    "available": true,
+    "eta_minutes": 89,
+    "price_level": 4,
+    "experience_years": 11,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Punjabi"
+    ],
+    "skills": [
+      "load balancing",
+      "fan installation",
+      "wiring",
+      "DB installation",
+      "CCTV wiring"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "18:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 789,
+    "response_time_minutes": 7
+  },
+  {
+    "id": 83,
+    "name": "DHA AC Technician Services",
+    "service": "AC technician",
+    "location": "DHA Phase 1",
+    "lat": 24.80409,
+    "lng": 67.05092,
+    "rating": 4.6,
+    "total_reviews": 934,
+    "available": true,
+    "eta_minutes": 7,
+    "price_level": 5,
+    "experience_years": 25,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "English"
+    ],
+    "skills": [
+      "gas recharge",
+      "AC installation",
+      "coil cleaning"
+    ],
+    "working_hours": {
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 1016,
+    "response_time_minutes": 22
+  },
+  {
+    "id": 84,
+    "name": "DHA Cleaner Works",
+    "service": "cleaner",
+    "location": "DHA Phase 2",
+    "lat": 24.80044,
+    "lng": 67.06938,
+    "rating": 4,
+    "total_reviews": 555,
+    "available": false,
+    "eta_minutes": 8,
+    "price_level": 1,
+    "experience_years": 3,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "carpet washing",
+      "post-construction cleanup",
+      "window cleaning",
+      "deep cleaning"
+    ],
+    "working_hours": {
+      "start": "10:00",
+      "end": "22:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 1688,
+    "response_time_minutes": 37
+  },
+  {
+    "id": 85,
+    "name": "Shahid Mechanic Team",
+    "service": "mechanic",
+    "location": "DHA Phase 4",
+    "lat": 24.77423,
+    "lng": 67.07151,
+    "rating": 5,
+    "total_reviews": 346,
+    "available": false,
+    "eta_minutes": 84,
+    "price_level": 4,
+    "experience_years": 4,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "English"
+    ],
+    "skills": [
+      "battery replacement",
+      "oil change",
+      "tyre change"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "20:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 391,
+    "response_time_minutes": 58
+  },
+  {
+    "id": 86,
+    "name": "DHA Carpenter Experts",
+    "service": "carpenter",
+    "location": "DHA Phase 5",
+    "lat": 24.76573,
+    "lng": 67.08875,
+    "rating": 4.4,
+    "total_reviews": 504,
+    "available": false,
+    "eta_minutes": 44,
+    "price_level": 1,
+    "experience_years": 16,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "English",
+      "Pashto"
+    ],
+    "skills": [
+      "wood polishing",
+      "door fitting",
+      "wardrobe installation",
+      "cabinet making",
+      "furniture repair"
+    ],
+    "working_hours": {
+      "start": "10:00",
+      "end": "19:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 1855,
+    "response_time_minutes": 34
+  },
+  {
+    "id": 87,
+    "name": "DHA Painter Works",
+    "service": "painter",
+    "location": "DHA Phase 6",
+    "lat": 24.75902,
+    "lng": 67.08604,
+    "rating": 4.6,
+    "total_reviews": 369,
+    "available": true,
+    "eta_minutes": 67,
+    "price_level": 4,
+    "experience_years": 22,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Sindhi",
+      "English"
+    ],
+    "skills": [
+      "wall painting",
+      "putty work",
+      "texture paint"
+    ],
+    "working_hours": {
+      "start": "11:00",
+      "end": "23:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 1343,
+    "response_time_minutes": 17
+  },
+  {
+    "id": 88,
+    "name": "DHA Appliance Repair Repairs",
+    "service": "appliance repair",
+    "location": "DHA Phase 7",
+    "lat": 24.7529,
+    "lng": 67.09746,
+    "rating": 2.6,
+    "total_reviews": 994,
+    "available": false,
+    "eta_minutes": 75,
+    "price_level": 5,
+    "experience_years": 14,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Pashto"
+    ],
+    "skills": [
+      "blender repair",
+      "washing machine repair",
+      "oven repair"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "20:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 3005,
+    "response_time_minutes": 6
+  },
+  {
+    "id": 89,
+    "name": "Sohail Sheikh Water Tank Cleaner",
+    "service": "water tank cleaner",
+    "location": "Clifton",
+    "lat": 24.80414,
+    "lng": 67.03383,
+    "rating": 4.1,
+    "total_reviews": 61,
+    "available": true,
+    "eta_minutes": 89,
+    "price_level": 1,
+    "experience_years": 8,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Pashto"
+    ],
+    "skills": [
+      "algae removal",
+      "sediment removal",
+      "tank cleaning",
+      "tank sealing",
+      "disinfection"
+    ],
+    "working_hours": {
+      "start": "07:00",
+      "end": "17:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 198,
+    "response_time_minutes": 60
+  },
+  {
+    "id": 90,
+    "name": "Khalid CCTV Solutions",
+    "service": "CCTV technician",
+    "location": "PECHS",
+    "lat": 24.86883,
+    "lng": 67.05373,
+    "rating": 4.8,
+    "total_reviews": 511,
+    "available": true,
+    "eta_minutes": 59,
+    "price_level": 1,
+    "experience_years": 13,
+    "verified": false,
+    "languages": [
+      "Urdu",
+      "Sindhi",
+      "English"
+    ],
+    "skills": [
+      "cable management",
+      "motion detection config",
+      "IP camera setup",
+      "DVR setup"
+    ],
+    "working_hours": {
+      "start": "09:00",
+      "end": "20:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 1053,
+    "response_time_minutes": 24
+  },
+  {
+    "id": 91,
+    "name": "Kamran Plumber Works",
+    "service": "plumber",
+    "location": "Gulshan-e-Iqbal",
+    "lat": 24.9211,
+    "lng": 67.10057,
+    "rating": 4.7,
+    "total_reviews": 175,
+    "available": true,
+    "eta_minutes": 16,
+    "price_level": 5,
+    "experience_years": 1,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Punjabi"
+    ],
+    "skills": [
+      "pipe repair",
+      "leakage fixing",
+      "tap installation",
+      "bathroom fitting",
+      "water pump repair"
+    ],
+    "working_hours": {
+      "start": "10:00",
+      "end": "22:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 405,
+    "response_time_minutes": 8
+  },
+  {
+    "id": 92,
+    "name": "Sohail Akhtar Electrician",
+    "service": "electrician",
+    "location": "Gulistan-e-Johar",
+    "lat": 24.92607,
+    "lng": 67.12255,
+    "rating": 4.3,
+    "total_reviews": 573,
+    "available": true,
+    "eta_minutes": 66,
+    "price_level": 4,
+    "experience_years": 12,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Punjabi",
+      "English"
+    ],
+    "skills": [
+      "load balancing",
+      "switchboard repair",
+      "DB installation",
+      "wiring",
+      "CCTV wiring"
+    ],
+    "working_hours": {
+      "start": "06:00",
+      "end": "16:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 1250,
+    "response_time_minutes": 58
+  },
+  {
+    "id": 93,
+    "name": "North AC Technician Hub",
+    "service": "AC technician",
+    "location": "North Nazimabad",
+    "lat": 24.93046,
+    "lng": 67.03953,
+    "rating": 4.7,
+    "total_reviews": 641,
+    "available": true,
+    "eta_minutes": 81,
+    "price_level": 4,
+    "experience_years": 21,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Sindhi"
+    ],
+    "skills": [
+      "AC repair",
+      "thermostat repair",
+      "coil cleaning",
+      "PCB repair",
+      "gas recharge"
+    ],
+    "working_hours": {
+      "start": "10:00",
+      "end": "19:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 1003,
+    "response_time_minutes": 47
+  },
+  {
+    "id": 94,
+    "name": "Nazimabad Cleaner Pros",
+    "service": "cleaner",
+    "location": "Nazimabad",
+    "lat": 24.91727,
+    "lng": 67.02999,
+    "rating": 4.6,
+    "total_reviews": 179,
+    "available": true,
+    "eta_minutes": 78,
+    "price_level": 3,
+    "experience_years": 20,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Pashto",
+      "Sindhi"
+    ],
+    "skills": [
+      "deep cleaning",
+      "bathroom sanitization",
+      "post-construction cleanup",
+      "kitchen cleaning"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "21:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 402,
+    "response_time_minutes": 6
+  },
+  {
+    "id": 95,
+    "name": "Sohail Mechanic Masters",
+    "service": "mechanic",
+    "location": "Federal B Area",
+    "lat": 24.93768,
+    "lng": 67.07399,
+    "rating": 3.8,
+    "total_reviews": 353,
+    "available": false,
+    "eta_minutes": 39,
+    "price_level": 1,
+    "experience_years": 24,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "English"
+    ],
+    "skills": [
+      "engine repair",
+      "oil change",
+      "car detailing"
+    ],
+    "working_hours": {
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 464,
+    "response_time_minutes": 11
+  },
+  {
+    "id": 96,
+    "name": "Usman Carpenter Services",
+    "service": "carpenter",
+    "location": "Saddar",
+    "lat": 24.86649,
+    "lng": 67.00348,
+    "rating": 4.7,
+    "total_reviews": 402,
+    "available": true,
+    "eta_minutes": 54,
+    "price_level": 4,
+    "experience_years": 8,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "furniture repair",
+      "kitchen cabinets",
+      "cabinet making"
+    ],
+    "working_hours": {
+      "start": "10:00",
+      "end": "22:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 1223,
+    "response_time_minutes": 36
+  },
+  {
+    "id": 97,
+    "name": "Arif Siddiqui Painter",
+    "service": "painter",
+    "location": "Bahadurabad",
+    "lat": 24.88106,
+    "lng": 67.0584,
+    "rating": 4.3,
+    "total_reviews": 491,
+    "available": true,
+    "eta_minutes": 47,
+    "price_level": 5,
+    "experience_years": 14,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Punjabi"
+    ],
+    "skills": [
+      "wall painting",
+      "putty work",
+      "wood painting",
+      "waterproofing",
+      "texture paint"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "18:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 2233,
+    "response_time_minutes": 59
+  },
+  {
+    "id": 98,
+    "name": "Zubair Chaudhry Appliance Repair",
+    "service": "appliance repair",
+    "location": "Tariq Road",
+    "lat": 24.87602,
+    "lng": 67.06456,
+    "rating": 4.5,
+    "total_reviews": 826,
+    "available": false,
+    "eta_minutes": 55,
+    "price_level": 2,
+    "experience_years": 8,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "refrigerator repair",
+      "oven repair",
+      "washing machine repair",
+      "blender repair"
+    ],
+    "working_hours": {
+      "start": "11:00",
+      "end": "23:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 1507,
+    "response_time_minutes": 27
+  },
+  {
+    "id": 99,
+    "name": "Korangi Water Tank Cleaner Solutions",
+    "service": "water tank cleaner",
+    "location": "Korangi",
+    "lat": 24.82659,
+    "lng": 67.13473,
+    "rating": 4.3,
+    "total_reviews": 625,
+    "available": true,
+    "eta_minutes": 42,
+    "price_level": 2,
+    "experience_years": 1,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Pashto"
+    ],
+    "skills": [
+      "tank cleaning",
+      "algae removal",
+      "tank sealing"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "20:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 1221,
+    "response_time_minutes": 38
+  },
+  {
+    "id": 100,
+    "name": "Babar CCTV Center",
+    "service": "CCTV technician",
+    "location": "Landhi",
+    "lat": 24.85385,
+    "lng": 67.18107,
+    "rating": 3,
+    "total_reviews": 61,
+    "available": true,
+    "eta_minutes": 40,
+    "price_level": 5,
+    "experience_years": 13,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "English",
+      "Sindhi"
+    ],
+    "skills": [
+      "CCTV installation",
+      "DVR setup",
+      "IP camera setup",
+      "cable management",
+      "camera calibration"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "21:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 77,
+    "response_time_minutes": 30
+  },
+  {
+    "id": 101,
+    "name": "Malir Plumber Services",
+    "service": "plumber",
+    "location": "Malir",
+    "lat": 24.891,
+    "lng": 67.19362,
+    "rating": 4.9,
+    "total_reviews": 57,
+    "available": true,
+    "eta_minutes": 66,
+    "price_level": 3,
+    "experience_years": 8,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "leakage fixing",
+      "pipe repair",
+      "water pump repair",
+      "tap installation"
+    ],
+    "working_hours": {
+      "start": "11:00",
+      "end": "23:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 134,
+    "response_time_minutes": 57
+  },
+  {
+    "id": 102,
+    "name": "Naeem Hussain Electrician",
+    "service": "electrician",
+    "location": "Shah Faisal Colony",
+    "lat": 24.87692,
+    "lng": 67.13994,
+    "rating": 4.7,
+    "total_reviews": 930,
+    "available": true,
+    "eta_minutes": 86,
+    "price_level": 5,
+    "experience_years": 12,
+    "verified": false,
+    "languages": [
+      "Urdu",
+      "Punjabi"
+    ],
+    "skills": [
+      "DB installation",
+      "wiring",
+      "fan installation"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "18:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 1428,
+    "response_time_minutes": 1
+  },
+  {
+    "id": 103,
+    "name": "Usman Rajput AC Technician",
+    "service": "AC technician",
+    "location": "Scheme 33",
+    "lat": 24.95451,
+    "lng": 67.10642,
+    "rating": 3.5,
+    "total_reviews": 777,
+    "available": false,
+    "eta_minutes": 21,
+    "price_level": 2,
+    "experience_years": 2,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Pashto"
+    ],
+    "skills": [
+      "gas recharge",
+      "AC repair",
+      "duct cleaning"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "21:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 2150,
+    "response_time_minutes": 43
+  },
+  {
+    "id": 104,
+    "name": "Riaz Cleaner Fixers",
+    "service": "cleaner",
+    "location": "Liaquatabad",
+    "lat": 24.89596,
+    "lng": 67.02522,
+    "rating": 2.6,
+    "total_reviews": 777,
+    "available": true,
+    "eta_minutes": 82,
+    "price_level": 5,
+    "experience_years": 21,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "carpet washing",
+      "sofa cleaning",
+      "window cleaning"
+    ],
+    "working_hours": {
+      "start": "11:00",
+      "end": "23:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 1511,
+    "response_time_minutes": 32
+  },
+  {
+    "id": 105,
+    "name": "Buffer Mechanic Services",
+    "service": "mechanic",
+    "location": "Buffer Zone",
+    "lat": 24.95249,
+    "lng": 67.0603,
+    "rating": 4.2,
+    "total_reviews": 255,
+    "available": false,
+    "eta_minutes": 80,
+    "price_level": 2,
+    "experience_years": 1,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "engine repair",
+      "AC gas refill",
+      "car detailing",
+      "battery replacement",
+      "tyre change"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "21:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 816,
+    "response_time_minutes": 28
+  },
+  {
+    "id": 106,
+    "name": "Orangi Carpenter Team",
+    "service": "carpenter",
+    "location": "Orangi Town",
+    "lat": 24.96574,
+    "lng": 67.00227,
+    "rating": 2.5,
+    "total_reviews": 653,
+    "available": true,
+    "eta_minutes": 54,
+    "price_level": 5,
+    "experience_years": 3,
+    "verified": false,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "false ceiling",
+      "cabinet making",
+      "furniture repair"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "18:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 1833,
+    "response_time_minutes": 20
+  },
+  {
+    "id": 107,
+    "name": "Naveed Sheikh Painter",
+    "service": "painter",
+    "location": "SITE Area",
+    "lat": 24.90231,
+    "lng": 67.01323,
+    "rating": 4.9,
+    "total_reviews": 631,
+    "available": false,
+    "eta_minutes": 72,
+    "price_level": 5,
+    "experience_years": 5,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "English"
+    ],
+    "skills": [
+      "spray painting",
+      "putty work",
+      "wall painting",
+      "wood painting"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "18:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 1309,
+    "response_time_minutes": 33
+  },
+  {
+    "id": 108,
+    "name": "Kamran Gillani Appliance Repair",
+    "service": "appliance repair",
+    "location": "Keamari",
+    "lat": 24.81579,
+    "lng": 66.9934,
+    "rating": 4,
+    "total_reviews": 989,
+    "available": true,
+    "eta_minutes": 63,
+    "price_level": 3,
+    "experience_years": 8,
+    "verified": false,
+    "languages": [
+      "Urdu",
+      "Pashto"
+    ],
+    "skills": [
+      "dishwasher repair",
+      "washing machine repair",
+      "refrigerator repair",
+      "oven repair",
+      "blender repair"
+    ],
+    "working_hours": {
+      "start": "11:00",
+      "end": "23:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 1823,
+    "response_time_minutes": 52
+  },
+  {
+    "id": 109,
+    "name": "Surjani Water Tank Cleaner Solutions",
+    "service": "water tank cleaner",
+    "location": "Surjani Town",
+    "lat": 25.01068,
+    "lng": 67.0438,
+    "rating": 4.9,
+    "total_reviews": 311,
+    "available": true,
+    "eta_minutes": 35,
+    "price_level": 1,
+    "experience_years": 8,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "tank cleaning",
+      "disinfection",
+      "overflow fixing"
+    ],
+    "working_hours": {
+      "start": "06:00",
+      "end": "16:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 1237,
+    "response_time_minutes": 21
+  },
+  {
+    "id": 110,
+    "name": "Waqar CCTV Experts",
+    "service": "CCTV technician",
+    "location": "Askari 4",
+    "lat": 24.88884,
+    "lng": 67.07792,
+    "rating": 3.9,
+    "total_reviews": 707,
+    "available": true,
+    "eta_minutes": 38,
+    "price_level": 3,
+    "experience_years": 25,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Sindhi",
+      "Punjabi"
+    ],
+    "skills": [
+      "IP camera setup",
+      "cable management",
+      "CCTV installation",
+      "remote access setup"
+    ],
+    "working_hours": {
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 1271,
+    "response_time_minutes": 33
+  },
+  {
+    "id": 111,
+    "name": "Salman Sheikh Plumber",
+    "service": "plumber",
+    "location": "Askari 5",
+    "lat": 24.88334,
+    "lng": 67.0881,
+    "rating": 3.4,
+    "total_reviews": 91,
+    "available": true,
+    "eta_minutes": 77,
+    "price_level": 1,
+    "experience_years": 5,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Sindhi"
+    ],
+    "skills": [
+      "drainage cleaning",
+      "pipe repair",
+      "tap installation",
+      "leakage fixing"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "18:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 149,
+    "response_time_minutes": 44
+  },
+  {
+    "id": 112,
+    "name": "Ali Abbasi Electrician",
+    "service": "electrician",
+    "location": "Cantt",
+    "lat": 24.85545,
+    "lng": 67.04641,
+    "rating": 4.7,
+    "total_reviews": 844,
+    "available": true,
+    "eta_minutes": 73,
+    "price_level": 4,
+    "experience_years": 2,
+    "verified": false,
+    "languages": [
+      "Urdu",
+      "Pashto",
+      "Sindhi"
+    ],
+    "skills": [
+      "DB installation",
+      "switchboard repair",
+      "wiring",
+      "load balancing"
+    ],
+    "working_hours": {
+      "start": "10:00",
+      "end": "19:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 1138,
+    "response_time_minutes": 53
+  },
+  {
+    "id": 113,
+    "name": "Farhan AC Pros",
+    "service": "AC technician",
+    "location": "Garden East",
+    "lat": 24.86718,
+    "lng": 67.02314,
+    "rating": 4,
+    "total_reviews": 426,
+    "available": true,
+    "eta_minutes": 64,
+    "price_level": 4,
+    "experience_years": 22,
+    "verified": false,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "PCB repair",
+      "coil cleaning",
+      "AC installation",
+      "duct cleaning"
+    ],
+    "working_hours": {
+      "start": "07:00",
+      "end": "17:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 696,
+    "response_time_minutes": 19
+  },
+  {
+    "id": 114,
+    "name": "Garden Cleaner Solutions",
+    "service": "cleaner",
+    "location": "Garden West",
+    "lat": 24.85568,
+    "lng": 67.01723,
+    "rating": 3.8,
+    "total_reviews": 457,
+    "available": true,
+    "eta_minutes": 22,
+    "price_level": 5,
+    "experience_years": 10,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "kitchen cleaning",
+      "deep cleaning",
+      "sofa cleaning",
+      "post-construction cleanup",
+      "bathroom sanitization"
+    ],
+    "working_hours": {
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 1602,
+    "response_time_minutes": 2
+  },
+  {
+    "id": 115,
+    "name": "Riaz Mirza Mechanic",
+    "service": "mechanic",
+    "location": "Jamshed Road",
+    "lat": 24.87609,
+    "lng": 67.04543,
+    "rating": 4.5,
+    "total_reviews": 910,
+    "available": false,
+    "eta_minutes": 70,
+    "price_level": 1,
+    "experience_years": 11,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "engine repair",
+      "car detailing",
+      "brake service",
+      "oil change",
+      "tyre change"
+    ],
+    "working_hours": {
+      "start": "10:00",
+      "end": "22:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 3488,
+    "response_time_minutes": 55
+  },
+  {
+    "id": 116,
+    "name": "Arif Ansari Carpenter",
+    "service": "carpenter",
+    "location": "Burns Road",
+    "lat": 24.86975,
+    "lng": 67.02468,
+    "rating": 4.2,
+    "total_reviews": 116,
+    "available": true,
+    "eta_minutes": 90,
+    "price_level": 1,
+    "experience_years": 2,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Pashto"
+    ],
+    "skills": [
+      "false ceiling",
+      "cabinet making",
+      "wardrobe installation"
+    ],
+    "working_hours": {
+      "start": "11:00",
+      "end": "23:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 164,
+    "response_time_minutes": 19
+  },
+  {
+    "id": 117,
+    "name": "Hassan Painter Masters",
+    "service": "painter",
+    "location": "Defence View",
+    "lat": 24.80521,
+    "lng": 67.0683,
+    "rating": 2.5,
+    "total_reviews": 409,
+    "available": true,
+    "eta_minutes": 17,
+    "price_level": 1,
+    "experience_years": 20,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Punjabi"
+    ],
+    "skills": [
+      "wood painting",
+      "waterproofing",
+      "wall painting",
+      "epoxy coating"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "21:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 1025,
+    "response_time_minutes": 12
+  },
+  {
+    "id": 118,
+    "name": "Boat Appliance Repair Hub",
+    "service": "appliance repair",
+    "location": "Boat Basin",
+    "lat": 24.80721,
+    "lng": 67.03719,
+    "rating": 4.9,
+    "total_reviews": 266,
+    "available": true,
+    "eta_minutes": 55,
+    "price_level": 4,
+    "experience_years": 19,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Pashto"
+    ],
+    "skills": [
+      "geyser repair",
+      "oven repair",
+      "washing machine repair",
+      "refrigerator repair",
+      "microwave repair"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "20:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 1415,
+    "response_time_minutes": 37
+  },
+  {
+    "id": 119,
+    "name": "Nursery Water Tank Cleaner Fixers",
+    "service": "water tank cleaner",
+    "location": "Nursery",
+    "lat": 24.87733,
+    "lng": 67.04124,
+    "rating": 4.5,
+    "total_reviews": 177,
+    "available": false,
+    "eta_minutes": 32,
+    "price_level": 5,
+    "experience_years": 15,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Sindhi",
+      "English"
+    ],
+    "skills": [
+      "tank cleaning",
+      "sediment removal",
+      "overflow fixing"
+    ],
+    "working_hours": {
+      "start": "07:00",
+      "end": "17:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 598,
+    "response_time_minutes": 39
+  },
+  {
+    "id": 120,
+    "name": "Waqar Ahmed CCTV Technician",
+    "service": "CCTV technician",
+    "location": "Gulberg",
+    "lat": 24.92597,
+    "lng": 67.09183,
+    "rating": 4.9,
+    "total_reviews": 105,
+    "available": true,
+    "eta_minutes": 64,
+    "price_level": 1,
+    "experience_years": 25,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Punjabi"
+    ],
+    "skills": [
+      "camera calibration",
+      "CCTV installation",
+      "remote access setup",
+      "DVR setup"
+    ],
+    "working_hours": {
+      "start": "10:00",
+      "end": "22:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 173,
+    "response_time_minutes": 45
+  },
+  {
+    "id": 121,
+    "name": "Farhan Qureshi Plumber",
+    "service": "plumber",
+    "location": "Model Colony",
+    "lat": 24.86761,
+    "lng": 67.1484,
+    "rating": 4,
+    "total_reviews": 979,
+    "available": false,
+    "eta_minutes": 55,
+    "price_level": 3,
+    "experience_years": 15,
+    "verified": false,
+    "languages": [
+      "Urdu",
+      "Punjabi",
+      "Pashto"
+    ],
+    "skills": [
+      "tap installation",
+      "leakage fixing",
+      "drainage cleaning",
+      "pipe repair",
+      "bathroom fitting"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "20:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 4005,
+    "response_time_minutes": 15
+  },
+  {
+    "id": 122,
+    "name": "Safoora Electrician Team",
+    "service": "electrician",
+    "location": "Safoora",
+    "lat": 24.94285,
+    "lng": 67.09953,
+    "rating": 3.3,
+    "total_reviews": 46,
+    "available": true,
+    "eta_minutes": 40,
+    "price_level": 3,
+    "experience_years": 3,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "inverter setup",
+      "DB installation",
+      "CCTV wiring"
+    ],
+    "working_hours": {
+      "start": "10:00",
+      "end": "19:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 122,
+    "response_time_minutes": 2
+  },
+  {
+    "id": 123,
+    "name": "Tahir Bhutto AC Technician",
+    "service": "AC technician",
+    "location": "University Road",
+    "lat": 24.93199,
+    "lng": 67.10502,
+    "rating": 4,
+    "total_reviews": 294,
+    "available": true,
+    "eta_minutes": 44,
+    "price_level": 2,
+    "experience_years": 18,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Pashto"
+    ],
+    "skills": [
+      "duct cleaning",
+      "gas recharge",
+      "thermostat repair",
+      "PCB repair"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "20:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 550,
+    "response_time_minutes": 45
+  },
+  {
+    "id": 124,
+    "name": "DHA Cleaner Hub",
+    "service": "cleaner",
+    "location": "DHA Phase 1",
+    "lat": 24.80093,
+    "lng": 67.05026,
+    "rating": 4.3,
+    "total_reviews": 548,
+    "available": true,
+    "eta_minutes": 89,
+    "price_level": 3,
+    "experience_years": 20,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "kitchen cleaning",
+      "sofa cleaning",
+      "deep cleaning",
+      "carpet washing",
+      "window cleaning"
+    ],
+    "working_hours": {
+      "start": "10:00",
+      "end": "19:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 1338,
+    "response_time_minutes": 8
+  },
+  {
+    "id": 125,
+    "name": "Iqbal Mechanic Pros",
+    "service": "mechanic",
+    "location": "DHA Phase 2",
+    "lat": 24.80782,
+    "lng": 67.07111,
+    "rating": 4.3,
+    "total_reviews": 323,
+    "available": false,
+    "eta_minutes": 11,
+    "price_level": 5,
+    "experience_years": 1,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "battery replacement",
+      "AC gas refill",
+      "car detailing",
+      "engine repair"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "18:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 908,
+    "response_time_minutes": 41
+  },
+  {
+    "id": 126,
+    "name": "DHA Carpenter Solutions",
+    "service": "carpenter",
+    "location": "DHA Phase 4",
+    "lat": 24.77783,
+    "lng": 67.07733,
+    "rating": 3.8,
+    "total_reviews": 525,
+    "available": true,
+    "eta_minutes": 53,
+    "price_level": 4,
+    "experience_years": 2,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Sindhi"
+    ],
+    "skills": [
+      "cabinet making",
+      "furniture repair",
+      "wardrobe installation"
+    ],
+    "working_hours": {
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 1913,
+    "response_time_minutes": 24
+  },
+  {
+    "id": 127,
+    "name": "Waqar Rajput Painter",
+    "service": "painter",
+    "location": "DHA Phase 5",
+    "lat": 24.77655,
+    "lng": 67.08037,
+    "rating": 4.8,
+    "total_reviews": 127,
+    "available": true,
+    "eta_minutes": 28,
+    "price_level": 3,
+    "experience_years": 14,
+    "verified": false,
+    "languages": [
+      "Urdu",
+      "Punjabi",
+      "Sindhi"
+    ],
+    "skills": [
+      "wall painting",
+      "waterproofing",
+      "putty work",
+      "texture paint",
+      "spray painting"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "18:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 641,
+    "response_time_minutes": 11
+  },
+  {
+    "id": 128,
+    "name": "Raza Appliance Works",
+    "service": "appliance repair",
+    "location": "DHA Phase 6",
+    "lat": 24.77028,
+    "lng": 67.10155,
+    "rating": 5,
+    "total_reviews": 918,
+    "available": true,
+    "eta_minutes": 67,
+    "price_level": 2,
+    "experience_years": 16,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Punjabi"
+    ],
+    "skills": [
+      "dishwasher repair",
+      "refrigerator repair",
+      "oven repair",
+      "washing machine repair",
+      "microwave repair"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "18:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 2791,
+    "response_time_minutes": 12
+  },
+  {
+    "id": 129,
+    "name": "Usman Siddiqui Water Tank Cleaner",
+    "service": "water tank cleaner",
+    "location": "DHA Phase 7",
+    "lat": 24.76053,
+    "lng": 67.09563,
+    "rating": 4,
+    "total_reviews": 860,
+    "available": true,
+    "eta_minutes": 44,
+    "price_level": 4,
+    "experience_years": 9,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "English",
+      "Pashto"
+    ],
+    "skills": [
+      "disinfection",
+      "sediment removal",
+      "water testing"
+    ],
+    "working_hours": {
+      "start": "11:00",
+      "end": "23:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 1904,
+    "response_time_minutes": 24
+  },
+  {
+    "id": 130,
+    "name": "Naeem CCTV Hub",
+    "service": "CCTV technician",
+    "location": "Clifton",
+    "lat": 24.81831,
+    "lng": 67.02291,
+    "rating": 2.8,
+    "total_reviews": 389,
+    "available": true,
+    "eta_minutes": 35,
+    "price_level": 1,
+    "experience_years": 10,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "English"
+    ],
+    "skills": [
+      "motion detection config",
+      "cable management",
+      "DVR setup",
+      "IP camera setup",
+      "CCTV installation"
+    ],
+    "working_hours": {
+      "start": "09:00",
+      "end": "20:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 960,
+    "response_time_minutes": 30
+  },
+  {
+    "id": 131,
+    "name": "PECHS Plumber Repairs",
+    "service": "plumber",
+    "location": "PECHS",
+    "lat": 24.87316,
+    "lng": 67.06213,
+    "rating": 4.9,
+    "total_reviews": 307,
+    "available": false,
+    "eta_minutes": 79,
+    "price_level": 3,
+    "experience_years": 19,
+    "verified": false,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "water pump repair",
+      "drainage cleaning",
+      "bathroom fitting",
+      "tap installation"
+    ],
+    "working_hours": {
+      "start": "11:00",
+      "end": "23:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 546,
+    "response_time_minutes": 14
+  },
+  {
+    "id": 132,
+    "name": "Tahir Electrician Care",
+    "service": "electrician",
+    "location": "Gulshan-e-Iqbal",
+    "lat": 24.91348,
+    "lng": 67.0906,
+    "rating": 3.8,
+    "total_reviews": 166,
+    "available": true,
+    "eta_minutes": 48,
+    "price_level": 4,
+    "experience_years": 23,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Punjabi",
+      "Sindhi"
+    ],
+    "skills": [
+      "switchboard repair",
+      "fan installation",
+      "DB installation"
+    ],
+    "working_hours": {
+      "start": "11:00",
+      "end": "23:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 743,
+    "response_time_minutes": 32
+  },
+  {
+    "id": 133,
+    "name": "Gulistan-e-Johar AC Technician Masters",
+    "service": "AC technician",
+    "location": "Gulistan-e-Johar",
+    "lat": 24.928,
+    "lng": 67.13043,
+    "rating": 4.3,
+    "total_reviews": 262,
+    "available": true,
+    "eta_minutes": 50,
+    "price_level": 2,
+    "experience_years": 5,
+    "verified": false,
+    "languages": [
+      "Urdu",
+      "Punjabi"
+    ],
+    "skills": [
+      "AC installation",
+      "PCB repair",
+      "AC repair",
+      "gas recharge",
+      "coil cleaning"
+    ],
+    "working_hours": {
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 439,
+    "response_time_minutes": 55
+  },
+  {
+    "id": 134,
+    "name": "North Cleaner Hub",
+    "service": "cleaner",
+    "location": "North Nazimabad",
+    "lat": 24.93293,
+    "lng": 67.04391,
+    "rating": 4.6,
+    "total_reviews": 355,
+    "available": true,
+    "eta_minutes": 79,
+    "price_level": 4,
+    "experience_years": 18,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Punjabi",
+      "English"
+    ],
+    "skills": [
+      "post-construction cleanup",
+      "carpet washing",
+      "window cleaning"
+    ],
+    "working_hours": {
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 1349,
+    "response_time_minutes": 20
+  },
+  {
+    "id": 135,
+    "name": "Nazimabad Mechanic Fixers",
+    "service": "mechanic",
+    "location": "Nazimabad",
+    "lat": 24.91671,
+    "lng": 67.03025,
+    "rating": 4.8,
+    "total_reviews": 983,
+    "available": true,
+    "eta_minutes": 45,
+    "price_level": 4,
+    "experience_years": 20,
+    "verified": false,
+    "languages": [
+      "Urdu",
+      "Pashto"
+    ],
+    "skills": [
+      "engine repair",
+      "oil change",
+      "tyre change"
+    ],
+    "working_hours": {
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 1500,
+    "response_time_minutes": 27
+  },
+  {
+    "id": 136,
+    "name": "Irfan Sheikh Carpenter",
+    "service": "carpenter",
+    "location": "Federal B Area",
+    "lat": 24.93366,
+    "lng": 67.07857,
+    "rating": 4,
+    "total_reviews": 120,
+    "available": false,
+    "eta_minutes": 57,
+    "price_level": 1,
+    "experience_years": 12,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Pashto",
+      "English"
+    ],
+    "skills": [
+      "cabinet making",
+      "furniture repair",
+      "wardrobe installation"
+    ],
+    "working_hours": {
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 347,
+    "response_time_minutes": 45
+  },
+  {
+    "id": 137,
+    "name": "Saddar Painter Solutions",
+    "service": "painter",
+    "location": "Saddar",
+    "lat": 24.86866,
+    "lng": 67.01817,
+    "rating": 4.6,
+    "total_reviews": 98,
+    "available": true,
+    "eta_minutes": 64,
+    "price_level": 4,
+    "experience_years": 11,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "waterproofing",
+      "epoxy coating",
+      "spray painting",
+      "texture paint"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "20:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 186,
+    "response_time_minutes": 22
+  },
+  {
+    "id": 138,
+    "name": "Waqar Appliance Services",
+    "service": "appliance repair",
+    "location": "Bahadurabad",
+    "lat": 24.88637,
+    "lng": 67.06311,
+    "rating": 4.7,
+    "total_reviews": 244,
+    "available": true,
+    "eta_minutes": 34,
+    "price_level": 1,
+    "experience_years": 23,
+    "verified": false,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "washing machine repair",
+      "blender repair",
+      "dishwasher repair",
+      "refrigerator repair"
+    ],
+    "working_hours": {
+      "start": "06:00",
+      "end": "16:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 1023,
+    "response_time_minutes": 55
+  },
+  {
+    "id": 139,
+    "name": "Aslam Water Repairs",
+    "service": "water tank cleaner",
+    "location": "Tariq Road",
+    "lat": 24.8794,
+    "lng": 67.07094,
+    "rating": 3.9,
+    "total_reviews": 171,
+    "available": true,
+    "eta_minutes": 56,
+    "price_level": 1,
+    "experience_years": 2,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "sediment removal",
+      "water testing",
+      "tank sealing",
+      "overflow fixing",
+      "algae removal"
+    ],
+    "working_hours": {
+      "start": "11:00",
+      "end": "23:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 213,
+    "response_time_minutes": 28
+  },
+  {
+    "id": 140,
+    "name": "Bilal Qureshi CCTV Technician",
+    "service": "CCTV technician",
+    "location": "Korangi",
+    "lat": 24.82334,
+    "lng": 67.14426,
+    "rating": 4,
+    "total_reviews": 415,
+    "available": true,
+    "eta_minutes": 58,
+    "price_level": 3,
+    "experience_years": 3,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "cable management",
+      "DVR setup",
+      "remote access setup",
+      "IP camera setup"
+    ],
+    "working_hours": {
+      "start": "10:00",
+      "end": "22:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 1069,
+    "response_time_minutes": 46
+  },
+  {
+    "id": 141,
+    "name": "Zahid Memon Plumber",
+    "service": "plumber",
+    "location": "Landhi",
+    "lat": 24.84101,
+    "lng": 67.17891,
+    "rating": 3.7,
+    "total_reviews": 703,
+    "available": false,
+    "eta_minutes": 44,
+    "price_level": 3,
+    "experience_years": 23,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "bathroom fitting",
+      "leakage fixing",
+      "water pump repair"
+    ],
+    "working_hours": {
+      "start": "10:00",
+      "end": "22:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 858,
+    "response_time_minutes": 35
+  },
+  {
+    "id": 142,
+    "name": "Shahid Ahmed Electrician",
+    "service": "electrician",
+    "location": "Malir",
+    "lat": 24.89544,
+    "lng": 67.18902,
+    "rating": 2.7,
+    "total_reviews": 561,
+    "available": false,
+    "eta_minutes": 89,
+    "price_level": 2,
+    "experience_years": 14,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "switchboard repair",
+      "load balancing",
+      "DB installation"
+    ],
+    "working_hours": {
+      "start": "07:00",
+      "end": "17:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 805,
+    "response_time_minutes": 14
+  },
+  {
+    "id": 143,
+    "name": "Asad AC Hub",
+    "service": "AC technician",
+    "location": "Shah Faisal Colony",
+    "lat": 24.87292,
+    "lng": 67.14092,
+    "rating": 4.3,
+    "total_reviews": 887,
+    "available": true,
+    "eta_minutes": 54,
+    "price_level": 3,
+    "experience_years": 10,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "thermostat repair",
+      "duct cleaning",
+      "PCB repair"
+    ],
+    "working_hours": {
+      "start": "06:00",
+      "end": "16:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 1172,
+    "response_time_minutes": 12
+  },
+  {
+    "id": 144,
+    "name": "Scheme Cleaner Pros",
+    "service": "cleaner",
+    "location": "Scheme 33",
+    "lat": 24.95476,
+    "lng": 67.11041,
+    "rating": 4.8,
+    "total_reviews": 587,
+    "available": false,
+    "eta_minutes": 77,
+    "price_level": 4,
+    "experience_years": 20,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "bathroom sanitization",
+      "carpet washing",
+      "window cleaning"
+    ],
+    "working_hours": {
+      "start": "10:00",
+      "end": "19:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 619,
+    "response_time_minutes": 51
+  },
+  {
+    "id": 145,
+    "name": "Liaquatabad Mechanic Masters",
+    "service": "mechanic",
+    "location": "Liaquatabad",
+    "lat": 24.89477,
+    "lng": 67.03569,
+    "rating": 4.8,
+    "total_reviews": 434,
+    "available": false,
+    "eta_minutes": 48,
+    "price_level": 5,
+    "experience_years": 18,
+    "verified": false,
+    "languages": [
+      "Urdu",
+      "Sindhi"
+    ],
+    "skills": [
+      "AC gas refill",
+      "battery replacement",
+      "engine repair"
+    ],
+    "working_hours": {
+      "start": "10:00",
+      "end": "22:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 763,
+    "response_time_minutes": 16
+  },
+  {
+    "id": 146,
+    "name": "Shahid Ahmed Carpenter",
+    "service": "carpenter",
+    "location": "Buffer Zone",
+    "lat": 24.96138,
+    "lng": 67.06621,
+    "rating": 4.4,
+    "total_reviews": 59,
+    "available": true,
+    "eta_minutes": 72,
+    "price_level": 3,
+    "experience_years": 6,
+    "verified": false,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "wood polishing",
+      "kitchen cabinets",
+      "furniture repair"
+    ],
+    "working_hours": {
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 281,
+    "response_time_minutes": 14
+  },
+  {
+    "id": 147,
+    "name": "Adnan Malik Painter",
+    "service": "painter",
+    "location": "Orangi Town",
+    "lat": 24.96061,
+    "lng": 67.0006,
+    "rating": 3.5,
+    "total_reviews": 949,
+    "available": true,
+    "eta_minutes": 48,
+    "price_level": 4,
+    "experience_years": 5,
+    "verified": false,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "epoxy coating",
+      "texture paint",
+      "waterproofing",
+      "wood painting",
+      "putty work"
+    ],
+    "working_hours": {
+      "start": "07:00",
+      "end": "17:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 1006,
+    "response_time_minutes": 34
+  },
+  {
+    "id": 148,
+    "name": "SITE Appliance Repair Repairs",
+    "service": "appliance repair",
+    "location": "SITE Area",
+    "lat": 24.89632,
+    "lng": 67.00623,
+    "rating": 3.4,
+    "total_reviews": 721,
+    "available": true,
+    "eta_minutes": 31,
+    "price_level": 2,
+    "experience_years": 6,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "Sindhi",
+      "English"
+    ],
+    "skills": [
+      "blender repair",
+      "refrigerator repair",
+      "dishwasher repair",
+      "washing machine repair",
+      "oven repair"
+    ],
+    "working_hours": {
+      "start": "11:00",
+      "end": "23:00"
+    },
+    "emergency_service": false,
+    "completed_jobs": 2546,
+    "response_time_minutes": 24
+  },
+  {
+    "id": 149,
+    "name": "Tahir Sheikh Water Tank Cleaner",
+    "service": "water tank cleaner",
+    "location": "Keamari",
+    "lat": 24.81683,
+    "lng": 66.98251,
+    "rating": 4.1,
+    "total_reviews": 894,
+    "available": true,
+    "eta_minutes": 41,
+    "price_level": 2,
+    "experience_years": 10,
+    "verified": true,
+    "languages": [
+      "Urdu",
+      "English",
+      "Sindhi"
+    ],
+    "skills": [
+      "disinfection",
+      "overflow fixing",
+      "sediment removal"
+    ],
+    "working_hours": {
+      "start": "11:00",
+      "end": "23:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 1086,
+    "response_time_minutes": 46
+  },
+  {
+    "id": 150,
+    "name": "Zahid CCTV Hub",
+    "service": "CCTV technician",
+    "location": "Surjani Town",
+    "lat": 25.01776,
+    "lng": 67.04326,
+    "rating": 4.5,
+    "total_reviews": 427,
+    "available": false,
+    "eta_minutes": 7,
+    "price_level": 4,
+    "experience_years": 6,
+    "verified": true,
+    "languages": [
+      "Urdu"
+    ],
+    "skills": [
+      "DVR setup",
+      "IP camera setup",
+      "motion detection config",
+      "CCTV installation"
+    ],
+    "working_hours": {
+      "start": "08:00",
+      "end": "20:00"
+    },
+    "emergency_service": true,
+    "completed_jobs": 536,
+    "response_time_minutes": 54
+  }
+]
