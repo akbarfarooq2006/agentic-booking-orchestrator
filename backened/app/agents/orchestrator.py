@@ -98,28 +98,6 @@ def _user_wants_to_book(message: str, providers_shown: list[dict]) -> dict[str, 
 # ------------------------------------------------------------------
 # Helper: format provider list as a readable reply string
 # ------------------------------------------------------------------
-def _format_providers_reply(ranking: RankingResult) -> str:
-    """Format the top providers into a friendly text response."""
-    if not ranking.top_providers:
-        return "Sorry, I couldn't find any providers matching your request."
-
-    lines = [ranking.summary, ""]
-    for i, ranked in enumerate(ranking.top_providers, 1):
-        p = ranked.provider
-        verified = "[Verified]" if p.get("verified") else "[Unverified]"
-        available = "(Available)" if p.get("available") else "(Unavailable)"
-        lines.append(
-            f"{i}. **{p['name']}**\n"
-            f"   Rating: {p['rating']} | ETA: {p['eta_minutes']} min | {available} | {verified}\n"
-            f"   Location: {p['location']}\n"
-            f"   Reason: {ranked.reason}\n"
-        )
-
-    lines.append("Reply with '1', '2', or '3' to book a provider, or describe what you need differently.")
-    return "\n".join(lines)
-
-
-# ------------------------------------------------------------------
 # Main orchestrator function — called by the /chat route
 # ------------------------------------------------------------------
 async def run_orchestrator(
@@ -248,23 +226,14 @@ async def run_orchestrator(
     # ----------------------------------------------------------------
     # STEP 5: Rank providers and return top 3
     # ----------------------------------------------------------------
-    ranking: RankingResult = await run_ranking_agent(providers)
+    ranking: RankingResult = await run_ranking_agent(providers, user_message)
 
     # Store the top providers in state for the booking step
-    state.providers_shown = [rp.provider for rp in ranking.top_providers]
+    state.providers_shown = ranking.top_providers
     state.step = "showing_providers"
 
-    reply = _format_providers_reply(ranking)
-
     return OrchestratorResponse(
-        reply=reply,
-        providers=[
-            {
-                **rp.provider,
-                "score": rp.score,
-                "reason": rp.reason,
-            }
-            for rp in ranking.top_providers
-        ],
+        reply=ranking.formatted_reply,
+        providers=ranking.top_providers,
         state=state,
     )

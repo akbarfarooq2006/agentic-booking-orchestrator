@@ -26,8 +26,8 @@ class RankedProvider(BaseModel):
 
 
 class RankingResult(BaseModel):
-    top_providers: list[RankedProvider]   # max 3
-    summary: str                          # Overall summary message
+    top_providers: list[dict[str, Any]]   # max 3 raw providers for state
+    formatted_reply: str                  # The final localized reply text
 
 
 # ------------------------------------------------------------------
@@ -71,12 +71,13 @@ def _compute_score(provider: dict[str, Any]) -> float:
     return round(min(max(total, 0), 100), 2)
 
 
-async def _generate_reasons(top3: list[dict[str, Any]]) -> list[str]:
+async def _generate_formatted_reply(top3: list[dict[str, Any]], total_found: int, user_message: str) -> str:
     """
-    Use a direct chat completion to generate ranking reasons for providers.
+    Use a direct chat completion to generate a beautifully formatted, localized
+    final response that lists the providers and asks the user to pick one.
     """
     if not top3:
-        return []
+        return "I could not find any providers for that request."
 
     lines = []
     for i, p in enumerate(top3, 1):
@@ -85,21 +86,28 @@ async def _generate_reasons(top3: list[dict[str, Any]]) -> list[str]:
             f"rating={p['rating']} | "
             f"eta={p['eta_minutes']} min | "
             f"verified={p['verified']} | "
-            f"available={p['available']} | "
-            f"completed_jobs={p['completed_jobs']} | "
-            f"response_time={p['response_time_minutes']} min"
+            f"available={p['available']}"
         )
 
-    system_prompt = """You are a booking assistant explaining recommendations.
-For each provider, write a SHORT (1 sentence) reason highlighting their best feature.
-Highlight details like rating, ETA, completed jobs, or verified status.
+    system_prompt = """You are a helpful booking assistant in Karachi, Pakistan.
+Your job is to present the top service providers to the user and ask them which one they want to book.
+
+CRITICAL RULES:
+1. You MUST respond in the EXACT same language and style as the user's message. If they speak Roman Urdu (e.g. "Mujhe AC technician chahye"), you MUST reply in Roman Urdu (e.g. "Mujhe 15 providers mil gaye hain, ye top 3 hain..."). If they speak English, reply in English.
+2. Format the response beautifully using bold text for names, and include their Rating, ETA, and Verified status.
+3. Add a short 1-line reason for each provider why they are good (e.g. "Best rating" or "Fastest ETA").
+4. At the end, ask the user to reply with '1', '2', or '3' to book one.
 
 You must respond with ONLY a valid JSON object matching this schema:
 {
-  "reasons": ["reason for provider 1", "reason for provider 2", "reason for provider 3"]
+  "formatted_reply": "the full, multi-line, formatted text reply here"
 }"""
 
-    prompt = "Generate reasons for these top providers:\n" + "\n".join(lines)
+    prompt = (
+        f"User Message: \"{user_message}\"\n"
+        f"Total matching providers found in database: {total_found}\n"
+        f"Top Providers to show:\n" + "\n".join(lines)
+    )
 
     try:
         response = await _client.chat.completions.create(
@@ -114,38 +122,22 @@ You must respond with ONLY a valid JSON object matching this schema:
 
         raw = response.choices[0].message.content or "{}"
         data = json.loads(raw)
-        reasons = data.get("reasons", [])
-
-        # Pad with fallbacks if necessary
-        while len(reasons) < len(top3):
-            reasons.append("Strong recommendation based on high rating.")
-
-        return reasons[:len(top3)]
+        return data.get("formatted_reply", "Here are the top providers. Reply 1, 2, or 3 to book.")
 
     except Exception as e:
-        print(f"[RankingAgent] Reason generation failed: {e} — using fallback text")
+        print(f"[RankingAgent] Reply generation failed: {e} — using fallback text")
         
-        # Build simple readable defaults
-        fallbacks = []
-        for p in top3:
-            parts = []
-            if p.get("available"):
-                parts.append("currently available")
-            if p.get("verified"):
-                parts.append("verified")
-            if p.get("rating", 0) >= 4.5:
-                parts.append(f"{p['rating']} star rating")
-            if p.get("eta_minutes", 60) <= 30:
-                parts.append(f"{p['eta_minutes']} min ETA")
-            fallbacks.append(
-                f"{', '.join(parts).capitalize() if parts else 'Good overall score'}."
-            )
-        return fallbacks
+        # Fallback in English
+        reply = f"Found {total_found} providers. Here are the top {len(top3)}:\n\n"
+        for i, p in enumerate(top3, 1):
+            reply += f"{i}. **{p['name']}** (Rating: {p['rating']}, ETA: {p['eta_minutes']}m)\n"
+        reply += "\nReply 1, 2, or 3 to book."
+        return reply
 
 
-async def run_ranking_agent(providers: list[dict[str, Any]]) -> RankingResult:
+async def run_ranking_agent(providers: list[dict[str, Any]], user_message: str = "") -> RankingResult:
     """
-    Score all providers and return the top 3 with explanations.
+    Score all providers and return the localized reply.
     """
     if DEBUG:
         print(f"[RankingAgent] Ranking {len(providers)} providers")
@@ -153,7 +145,7 @@ async def run_ranking_agent(providers: list[dict[str, Any]]) -> RankingResult:
     if not providers:
         return RankingResult(
             top_providers=[],
-            summary="No providers found for your request.",
+            formatted_reply="No providers found for your request.",
         )
 
     # Score all providers in Python
@@ -172,17 +164,10 @@ async def run_ranking_agent(providers: list[dict[str, Any]]) -> RankingResult:
         for p, s in zip(top3_raw, top3_scores):
             print(f"  Provider {p['name']} -> score: {s}")
 
-    # Generate reasons
-    reasons = await _generate_reasons(top3_raw)
+    # Generate formatted reply
+    formatted_reply = await _generate_formatted_reply(top3_raw, len(providers), user_message)
 
-    top_providers = [
-        RankedProvider(provider=p, score=s, reason=r)
-        for p, s, r in zip(top3_raw, top3_scores, reasons)
-    ]
-
-    summary = (
-        f"Found {len(providers)} providers. "
-        f"Here are the top {len(top_providers)} recommendations for you."
+    return RankingResult(
+        top_providers=top3_raw,
+        formatted_reply=formatted_reply
     )
-
-    return RankingResult(top_providers=top_providers, summary=summary)
