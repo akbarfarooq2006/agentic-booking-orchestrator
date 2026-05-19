@@ -8,6 +8,10 @@ __pycache__/
 venv/
 env/
 
+# Distribution
+dist/
+build/
+
 # Environment variables (CRITICAL - contains secrets!)
 .env
 .env.local
