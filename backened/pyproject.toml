@@ -4,4 +4,10 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "fastapi[standard]>=0.136.1",
+    "pydantic[email]>=2.13.4",
+    "pyjwt>=2.12.1",
+    "python-dotenv>=1.2.2",
+    "supabase>=2.30.0",
+]
